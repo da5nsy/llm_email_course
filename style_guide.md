@@ -65,8 +65,23 @@ Provide clear instructions with escape hatches: "If you don't have X, try Y inst
 ## Meta-honesty about AI use
 This course was partly built with AI assistance. Use that as a teaching moment at specific points where it illustrates a concept (e.g., convergence and variety of AI-generated outlines, the editing process, voice flattening). Don't belabour it, but don't hide it either. Models the transparency the course teaches.
 
+## Email structure
+
+**Two types of email:**
+
+1. **Weekly content emails** (20 total: 2 per week for 10 weeks) - newsletter style. No "Dear X" / sign-off framing.
+   - Start with orientation header: "Week X of 10 - [Topic]" (e.g., "Week 1 of 10 - What LLMs are (and aren't)")
+   - Open with a provocation, observation, connection to last time, or exercise payoff - vary it, don't be formulaic
+   - Inline exercise section marked with a clear header (e.g., "Try this" or "This week's exercise")
+   - End with journal prompt. No sign-off.
+   - Monday emails ("Spark"): ~1200 words, core concept + main exercise
+   - Thursday emails ("Anchor"): ~600-800 words, reflection/deepening + lighter exercise
+
+2. **Personal emails** (3 total: welcome, midpoint check-in, final wrap-up) - written as actual emails from Lukas. First person, conversational, sign-off.
+
+**Subject lines:** `[GAIR]` prefix, sentence case, no emoji, no numbering. Punchy and descriptive. The subject line is the hook; the orientation header inside handles sequencing. E.g., "[GAIR] The citation your AI just invented" not "[GAIR] 2A. The citation your AI just invented"
+
 ## Formatting conventions
-- Email subjects: `[GAIR]` prefix, sentence case, no emoji
 - Headings within emails: sentence case
 - Straight quotes, not curly
 - Links: provide them, but don't overload. 1-3 per email maximum unless it's a resource list.

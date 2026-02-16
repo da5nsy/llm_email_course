@@ -56,7 +56,7 @@ Replaces the prompt library concept. A simple template (Google Doc) with:
 ## Week 1 - What LLMs are (and aren't)
 
 ### Email 1A (Spark)
-**Subject:** [GAIR] 1A. What do you trust AI for (and why)?
+**Subject:** [GAIR] What do you trust AI for (and why)?
 
 **Purpose:** Establish a personal baseline. Begin capability-aware planning.
 
@@ -76,7 +76,7 @@ Replaces the prompt library concept. A simple template (Google Doc) with:
    - Current red lines / tasks you refuse to outsource
    - Goals for this course
 
-2. Tool comparison: ask 2-3 tools the *same* question on a topic you know well. Suggested prompts:
+2. Tool comparison: ask 2-3 tools the *same* question on a topic you know well. Suggested prompts (pick two):
    - "Explain X in plain language for a smart non-expert."
    - "Recommend 6 foundational readings for X and explain why each matters."
    - "Propose 3 plausible hypotheses about X and how you'd test them."
@@ -93,7 +93,7 @@ We generally don't recommend specific models - this becomes outdated fast, and t
 ---
 
 ### Email 1B (Anchor)
-**Subject:** [GAIR] 1B. What you probably noticed: confidence, drift, and context
+**Subject:** [GAIR] What you probably noticed: confidence, drift, and context
 
 **Purpose:** Install a correct mental model without toy simplifications.
 
@@ -104,8 +104,7 @@ We generally don't recommend specific models - this becomes outdated fast, and t
 - Next-token prediction is context-conditioned (long text, not just a sentence)
 - Training data and knowledge cut-offs shape (i.e. bias) outputs
 - AI can generate text from a short prompt or transform information (e.g. from PDFs)
-- Key asymmetry: generation vs verification cost. GenAI is great where generation is costly and verification easy (e.g. illustrations, code). Search-enabled LLMs have become better at self-verification
-- Difference between open & closed models, local & cloud models
+- Brief mention: open vs closed models, local vs cloud - we'll return to this in Week 8 when we talk about privacy and governance
 
 **Exercise (5-8 min): Context continuation game**
 1. Take a paragraph you wrote (intro, methods, email). Delete the next 1-2 sentences.
@@ -119,51 +118,48 @@ We generally don't recommend specific models - this becomes outdated fast, and t
 ## Week 2 - Confident errors: hallucination, sycophancy, epistemic vigilance
 
 ### Email 2A (Spark)
-**Subject:** [GAIR] 2A. The citation your AI just invented
+**Subject:** [GAIR] The citation your AI just invented
 
-**Purpose:** Turn citation hallucinations into a detection reflex.
+**Purpose:** Make hallucination tangible - both citation fabrication and factual confabulation. Show that self-verification sometimes helps but isn't reliable.
 
 **Core concepts:**
-- Models produce citation-shaped text without retrieval
-- Unique combinations of many words (like full references) are failure-prone
-- This isn't a bug - it's a predictable consequence of the architecture
+- Models produce citation-shaped text without retrieval - unique combinations of many words (like full references) are particularly failure-prone
+- This extends beyond citations: AI also fabricates plausible-sounding facts, statistics, and historical claims
+- This isn't a bug - it's a predictable consequence of the architecture (from Week 1: plausible continuation, not truth)
+- Models can sometimes catch their own errors when asked to verify - but not always, and not reliably
 
-**Exercise (10-15 min): Frankenstein citation hunt**
-1. Ask for 6 citations supporting a niche claim you know well.
-2. Verify existence and whether each actually supports the claim.
-3. Label each: real / fabricated / Frankenstein (real author + journal, fake title) / misattributed / outdated.
+**Exercise (10-15 min): Hallucination hunt**
 
-**Journal:** How confident did the AI sound when giving you fake citations? How does that change your trust calibration?
+Main track: Ask a chat LLM for 6 citations supporting a niche claim you know well. Verify existence and whether each actually supports the claim. Label each: real / fabricated / Frankenstein (real author + journal, fake title) / misattributed / outdated. Then: paste the citations back and ask the model to check which ones are real. How accurate is its self-assessment?
+
+If you already know about citation hallucination: Try asking about factual claims at the edge of your expertise - a topic you know something about but aren't certain of the details. Ask the AI to make specific empirical claims (statistics, dates, study findings). How hard is it to tell what's real when you're not already an expert?
+
+**Journal:** How confident did the AI sound when giving you wrong information? Did self-verification help? How does this change your trust calibration?
 
 ---
 
 ### Email 2B (Anchor)
-**Subject:** [GAIR] 2B. Why it tells you what you want to hear
+**Subject:** [GAIR] Why it tells you what you want to hear
 
-**Purpose:** Explain sycophancy + teach the generation-verification asymmetry rule.
+**Purpose:** Explain sycophancy. Introduce the generation-verification asymmetry as a practical decision rule.
 
 **Core concepts:**
-- RLHF (reinforcement learning from human feedback) pushes toward pleasing, agreeable responses
-- In one-off interactions, this can mean uncritical praise and confident fabrication
+- RLHF (reinforcement learning from human feedback) pushes toward pleasing, agreeable responses - in one-off interactions, this can mean uncritical praise and confident fabrication
 - Models have improved, but critical engagement with outputs remains essential
-- "Hermeneutic of suspicion" / "nullius in verba" / epistemic vigilance - not AI-specific, but particularly important here
-- **Asymmetry rule:** AI is best where generation is costly and verification is cheap
-- Search grounding helps retrieval but not judgment
+- There are fancy names for this habit of healthy scepticism - "epistemic vigilance," the Royal Society's motto "nullius in verba" (take nobody's word for it) - but the practice is simple: check before you trust
+- **Asymmetry rule** (moved from 1B): AI is most useful where generation is costly for you and verification is cheap. It's riskiest where verification is hard or expensive.
+- Search-grounded tools help with retrieval but not with judgment
 
-**Exercise (5-8 min): High-ROI audit**
-1. List 5 tasks you do often.
-2. Rate each: cost of generation (for you); cost of verification (for you); harm if wrong.
-3. Identify: 2 high-ROI AI uses + 1 danger-zone task.
+**Exercise (8-10 min): Sycophancy demo → High-ROI audit**
 
-**Sycophancy mini-demo (2 min):**
-- Prompt 1: "Praise this idea; assume it's correct."
-- Prompt 2: "Attack this idea; assume it's flawed."
-- Compare tone and specificity.
+Start here (2 min): Take one of your research ideas and prompt an AI with: "Praise this idea; assume it's correct." Then try: "Attack this idea; assume it's flawed." Compare the tone and specificity. Notice how easily it switches.
+
+Then (5-8 min): List 5 research tasks you do often. For each, rate: how costly is it for you to generate this from scratch? How easy is it to verify the output? How bad is it if it's wrong? Identify 2 high-ROI uses for AI and 1 danger-zone task where you should be cautious.
 
 **Further reading:**
 - https://openai.com/index/why-language-models-hallucinate/
 
-**Journal:** Which of your tasks have cheap verification? Where is verification expensive?
+**Journal:** Which of your tasks have cheap verification? Where is verification expensive? Has the sycophancy demo changed how you read AI responses?
 
 ---
 
