@@ -4,7 +4,7 @@
 Conversational and warm. Like explaining something to a smart colleague over coffee - someone you respect and don't need to impress. You're a few steps ahead on AI use in research, sharing what you've learned, not lecturing from above.
 
 ## First person
-Use "I" sparingly - for genuine personal experience or strong opinions. ("I've found this useful for..." / "I'm not convinced that..."). Default to "you" (addressing the reader directly) and inclusive "we" (shared community of researchers). Don't force "I" for personality; let the content carry it.
+Use "I" naturally - for personal experience, opinions, and course framing. ("I've found this useful for..." / "I'm not going to tell you what AI can't do" / "I still am"). The course voice is Lukas's personal voice, not an institutional one. Default to "you" (addressing the reader directly) and inclusive "we" (shared community of researchers) for most exposition, but don't artificially suppress "I" when it would sound natural.
 
 ## Confidence and uncertainty
 Be confident about your own experience, which is positive. Be honest about uncertainty in generalisation. "This has worked well for me and many colleagues" is fine. "This will transform your research" is not. When evidence is mixed or a claim is contested, say so plainly rather than hedging with qualifiers. Prefer "The evidence is mixed on this" over "It could potentially possibly be argued that..."
@@ -12,7 +12,7 @@ Be confident about your own experience, which is positive. Be honest about uncer
 ## Tone
 - Friendly but not gushing
 - Direct but not bossy
-- Light humor when the subject provides it naturally (AI does plenty of absurd things). Never forced jokes.
+- Humor is deadpan and situational, not joke-telling. AI does plenty of absurd things; describe them matter-of-factly and the humor lands. Never forced jokes.
 - Acknowledge complexity and mixed feelings. Real people have them.
 - No cheerleading. No "exciting times ahead." No "powerful tool that will revolutionize."
 
@@ -31,7 +31,8 @@ Invitational but clear. Readers signed up for this course - they expect encourag
 Provide clear instructions with escape hatches: "If you don't have X, try Y instead" or "Even 10 minutes on this is worthwhile." Always provide an opportunity to connect the exercise to something the reader is already doing - their own data, their own writing, their current project - or to have fun with something new.
 
 ## Paragraph and sentence structure
-- Vary sentence length naturally. Short sentences for emphasis. Longer ones when explaining something that needs room to breathe.
+- Vary sentence length naturally. Short sentences for emphasis. Longer ones when explaining something that needs room to breathe. The voice tends longer than typical web writing - that's fine when the rhythm works.
+- Brief parenthetical asides add personality: "(I hope)", "(mostly)", "(sorry)". Use sparingly but don't avoid them.
 - Keep paragraphs short - rarely more than 4-5 sentences. Email is a scannable medium.
 - Use lists for genuinely list-like content, not as a crutch for organising prose.
 - Prefer concrete examples over abstract descriptions.
@@ -48,7 +49,7 @@ Provide clear instructions with escape hatches: "If you don't have X, try Y inst
 
 **Structural patterns to avoid:**
 - Rule of three ("innovation, inspiration, and industry insights"). If you have three things, fine. Don't force ideas into triplets.
-- Em dash overuse. One per email is plenty.
+- Em dash overuse. One per email is plenty. Use space-hyphen-space ( - ) for informal dashes, not em dashes (—). Hyphens are lighter and match the conversational tone.
 - Bolded inline headers on every list item. Use bold purposefully for scanning, not mechanically.
 - "Challenges and future prospects" formulaic sections
 - Vague attributions ("experts say," "research shows" without specifics). Make sure to do your research, and to call out claims as [NEEDS CHECK/EVIDENCE] if that is the case.
@@ -61,6 +62,7 @@ Provide clear instructions with escape hatches: "If you don't have X, try Y inst
 - Concrete examples over abstract principles
 - Acknowledge when something is uncertain, contested, or just your opinion
 - End sections with something specific, not a vague uplift
+- Forward references should be casual: "We'll get to that later in the course" not "In Week 4, we will discuss..."
 
 ## Meta-honesty about AI use
 This course was partly built with AI assistance. Use that as a teaching moment at specific points where it illustrates a concept (e.g., convergence and variety of AI-generated outlines, the editing process, voice flattening). Don't belabour it, but don't hide it either. Models the transparency the course teaches.
