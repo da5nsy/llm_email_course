@@ -2,50 +2,41 @@
 
 ---
 
-Week 2 of 10 - Confident errors: hallucination, sycophancy, epistemic vigilance
+Week 2 of 10 - Confident errors: hallucination, sycophancy, and the need to stay vigilant
 
 ---
 
-Last week, if you asked an AI for reading recommendations on your topic, there's a good chance some of those recommendations don't exist. Not "out of print" or "hard to find" - literally nonexistent. A real author's name attached to a journal they've published in, with a title that sounds exactly right, for a paper that was never written.
+Last week, you might have asked an AI for reading recommendations on your topic. If you did, there's a good chance some of those recommendations don't exist. Not "out of print" or "hard to find" - literally nonexistent. A real author's name attached to a journal they've published in, with a title that sounds exactly right, for a paper that was never written.
 
-This is called **hallucination**, and it's one of the most practically important things to understand about LLMs. Not because it's rare, but because it's so hard to see.
+This is called **hallucination**, and it's one of the most practically important things to understand about LLMs. Even though this has become a lot better over recent years, hallucinations still occur, and can be tough to spot.
 
 **Why models invent citations**
 
 Remember from last week: LLMs generate plausible continuations. When you ask for a citation, the model produces text that looks like a citation should look. It draws on patterns - this author publishes in this journal, papers on this topic tend to have titles like this - and assembles something that fits the pattern. It's doing exactly what it always does. The problem is that citations aren't just patterns. They're pointers to specific, unique documents. And unique combinations of many words - a full author list, a specific title, a particular journal and year - are exactly the kind of thing models get wrong most often.
 
-The result is a spectrum of errors:
-
-- **Fabricated**: entirely made up - plausible title, plausible author, no such paper
-- **Frankenstein**: real author, real journal, fake title (or real title, wrong author)
-- **Misattributed**: a real paper cited for a claim it doesn't actually make
-- **Outdated or retracted**: a paper that existed but is no longer a valid source
-
-All of these come wrapped in the same confident tone. The model doesn't flag uncertainty because, from its perspective, there's nothing uncertain. It's just continuing the pattern.
+The result is a spectrum of errors: sometimes references are entirely fabricated, sometimes they are nearly right, sometimes they are even correct, but do not support the claim that the model attributed to them. All of these come wrapped in the same confident tone. The model doesn't flag uncertainty because, from its perspective, there's nothing uncertain. It's just continuing a highly plausible pattern.
 
 **Beyond citations: plausible-sounding facts**
 
-Citation hallucination gets the most attention because it's easy to check. But the same mechanism produces fabricated statistics, invented historical claims, and made-up study findings scattered through ordinary-looking prose. [ADD PERSONAL EXPERIENCE: an example of a factual hallucination you encountered - a statistic that sounded right but wasn't, a historical claim that was slightly off, etc.]
-
-This is harder to catch than fake citations, because you can't just run a title through Google Scholar. When the AI tells you that "a 2019 study of 3,000 participants found that..." you need enough domain knowledge to know whether that study plausibly exists. At the edges of your expertise, that gets difficult fast.
+Citation hallucination gets the most attention because it's easy to check, and because there are few other explanations why citations to non-existent papers suddenly started to appear much more frequently across the academic literature after ChatGPT came out. But the same mechanism produces fabricated statistics, invented historical claims, and made-up study findings scattered through ordinary-looking prose. This can make working with LLMs very frustrating. They can often get a lot of details right, but some details wrong. They are great at reformatting reference lists, but I recently came close to shouting at a model that helpfully decided to fill in all gaps with "plausible" page numbers and DOIs.
 
 **Can the model check its own work?**
 
 Sometimes, yes - and sometimes that's worse than not checking at all.
 
-If you paste a list of citations back into a model and ask "which of these are real?", it will often correctly identify some fabrications. But it will also sometimes confirm fake citations as real, or flag real ones as fake. The self-check is unreliable in the same way the original generation is unreliable, and for the same reason: the model is still predicting plausible text, not looking anything up.
+If you paste a list of citations back into a model and ask "which of these are real?", it will often correctly identify some fabrications. But it will also sometimes confirm fake citations as real, or flag real ones as fake. The self-check is unreliable in the same way the original generation is unreliable, and for the same reason: the model is still predicting plausible text, not looking anything up. The only reliable self-check will catch inconsistencies in the text you provide (e.g. between journal name and DOI).
 
 This creates a dangerous false sense of security. A researcher who asks the AI to verify its own citations and gets a "yes, these are all real" response may feel more confident than one who never checked at all - but they're not actually better off.
 
-[NEEDS EVIDENCE: cite a study or documented example of self-verification failure rates - e.g., the rate at which models confirm their own fabricated citations. If no good source, flag for removal]
+However, note that there is a difference when it comes to models that can use tools. Most models can now search the web, which makes self-checking work better. Some models can directly write and execute code that, for instance, checks with Crossref whether DOIs match citations. We'll come back to this in the coming weeks.
 
-**What this means for your work**
+**What this means for our work**
 
-The practical takeaway is straightforward: never trust an AI-generated citation without checking it yourself. This sounds obvious, but in practice it's easy to let a confident-sounding reference list go unchecked, especially when you're moving fast or the topic is slightly outside your main area.
+Unfortunately, this means that responses from chat interfaces - whether they are citations or factual claims - can never be fully trusted. This sounds obvious, but in practice it's easy to let a confident-sounding claim go unchecked, especially when you're moving fast or the topic is slightly outside your main area. At times, this might also be okay. I regularly ask LLMs for cooking advice - I wouldn't trust one on whether a mushroom is safe to eat, but I appreciate a confident opinion on whether hoisin or toban djan sauce works better for a given dish. Similarly, when I'm torn between two approaches to a statistical problem, I appreciate a pointer even if it might sometimes lead me astray.
 
-The same principle extends to any specific factual claim. If you're going to use a fact, statistic, or finding that came from an AI, verify it. The more specific the claim, the more important the check.
+Nevertheless, for any specific factual claim, we need to calibrate our confidence. LLMs - like any source - can be useful even if they are sometimes wrong. But unlike humans, they are very poor at telling us how confident they are.
 
-We'll talk on Thursday about a broader framework for deciding which AI outputs are worth the verification effort and which aren't. For now, the exercise below will give you a direct feel for how this works in practice.
+So we need to learn when to become suspicious, and be mindful never to present LLM outputs as "the truth" without adequate verification. I'll share some more thoughts on that on Thursday. For now, the exercise below will give you a direct feel for how this works in practice.
 
 ## Try this: hallucination hunt (10-15 min)
 
@@ -58,18 +49,18 @@ We'll talk on Thursday about a broader framework for deciding which AI outputs a
    - **Fabricated**: doesn't exist at all
    - **Frankenstein**: some elements real, some invented
    - **Misattributed**: exists but doesn't say what the AI claims
-4. Now paste the list back into the same model and ask: "Check these citations. Which ones are real academic papers?" Compare its self-assessment to your manual check.
+4. Now paste the list back into a new chat with the same model and ask: "Check these citations. Which ones are real academic papers?" Compare its self-assessment to your manual check.
 
 Note how many it got wrong in each direction - fabrications it confirmed, real papers it doubted.
 
-**If you already know about citation hallucination**
+**Or alternatively, if you already spotted hallucinated citations**
 
 Try something harder: ask the AI about factual claims at the edge of your expertise. A topic you know something about but wouldn't bet money on the details. Ask it to make specific empirical claims - statistics, dates, study findings. Then try to verify. How hard is it to tell what's real when you're not already the expert?
 
 This version of the exercise is closer to how most people actually encounter hallucination - not in areas where they can easily spot the error, but in areas where the AI's confidence is persuasive precisely because they can't immediately check.
 
-Even 10 minutes on either version is worthwhile. The point isn't to be exhaustive; it's to calibrate your intuition for how often, and how convincingly, these models get things wrong.
+Spending some time on either version is worthwhile. A key skill in using AI effectively is calibrating your intuition for how often, and how convincingly, these models get things wrong - and starting to learn *when* this might be particularly likely.
 
 **Journal prompt**
 
-How confident did the AI sound when giving you wrong information? Did the self-verification step help, or did it add a false sense of security? How does this change your trust calibration from Week 1?
+How confident did the AI sound when giving you wrong information (if you managed to get wrong information)? Did the self-verification step help, or did it add a false sense of security? Does this exercise change how you approach AI output?
