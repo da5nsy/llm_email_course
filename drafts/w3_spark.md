@@ -8,23 +8,23 @@ Week 3 of 10 - Prompting, ideation, and the convergence trap
 
 If you search for "prompting tips" you'll find thousands of results. Add "think step by step." Use the STAR framework. Tell the model it's an expert. Threaten it with job loss (really). The internet has turned prompting into a kind of folk magic - incantations that supposedly unlock hidden capabilities.
 
-Most of this is theatre. Some of it used to matter more, with earlier, less capable models. But the core insight is simpler than the cottage industry suggests: the better you specify what you want, the more useful the output tends to be. That's not a secret hack. It's how communication works with any collaborator, human or otherwise.
+Most of this is theatre. Some of it used to matter more, with earlier, less capable models. But the core insight is very simple: the better you specify what you want (and why you want it), the more useful the output tends to be. That's not a secret hack. It's how communication works with any collaborator, human or otherwise.
 
 **Clarity beats tricks**
 
-The single most reliable way to get better AI output is to be clearer about what you're asking for. This sounds obvious, but in practice most prompts are vague. "Summarise this paper" could mean a one-sentence gist, a structured abstract, or a 500-word overview highlighting methodological choices. The model will guess what you meant, and it will guess confidently.
+The single most reliable way to get better AI output is to be clearer about what you're asking for. This sounds obvious, but in practice most prompts are vague. "Summarise this paper" could mean a one-sentence gist, a structured abstract, or a 500-word overview highlighting methodological choices. It could focus on what matters to a novice, or go into the nuances more relevant to an expert. The model will guess what you meant, and it will guess confidently.
 
-This is worth thinking about not because you need to master some "prompting framework" but because forcing yourself to specify what you actually want is useful in its own right. What do you need from this summary? Who is it for? What matters and what doesn't? The exercise of writing a clear prompt often clarifies your own thinking, which is half the value.
+This is worth thinking about not because you need to master some "prompting framework" but because forcing yourself to specify what you actually want is useful in its own right. What do you need from this summary? Who is it for? What matters and what doesn't? The exercise of writing a clear prompt often clarifies your own thinking, which is half the value. I like to believe that thinking about how to prompt AI has helped me become clearer towards human collaborators as well.
 
-That said, there's a place for vague prompts too. Sometimes you don't know what you want yet, and a loose question like "what are the main debates around X?" can surface angles you hadn't considered. The trick is knowing which mode you're in: exploring or executing. Vague prompts are fine for exploration. For execution, specificity pays off.
+That said, there's a place for vague prompts too. Sometimes you don't know what you want yet, and a loose question like "what are the main debates around X?" (or even "what is often overlooked when thinking about Y?") can surface angles you hadn't considered. The trick is knowing which mode you're in: exploring or executing. Vague prompts are fine for exploration. For execution, specificity pays off.
 
 **Roles, examples, and constraints**
 
 A few prompting moves do reliably change outputs, and they're worth knowing about.
 
-**Roles** (or personas): telling the model to respond "as a methodologist" or "as a skeptical reviewer" adjusts the style and focus of the output. The model doesn't become an expert. But it shifts which patterns get activated, which can produce noticeably different results. A "methods consultant" persona will focus on design choices; an "interested layperson" persona will skip the jargon.
+**Roles** (or personas): telling the model to respond "as a methodologist" or "as a skeptical reviewer" adjusts the style and focus of the output. The model doesn't become an expert. But it shifts which patterns get activated, which can produce noticeably different results. A "methods consultant" persona will focus on design choices; an "interested layperson" persona will focus more on pointing out gaps in clarity and relevance.
 
-**Few-shot examples**: showing the model what you want by including 1-3 examples of the desired output. This is particularly useful when you need a specific format or style that's hard to describe in words. If you want a particular kind of annotation, show it one. The model picks up on patterns fast.
+**Few-shot examples**: showing the model what you want by including 1-3 examples of the desired output. This is particularly useful when you need a specific format or style that's hard to describe in words. If you want a particular kind of annotation, show it one. If you want help writing an abstract, provide a few abstracts that you like in addition to your paper draft. The model picks up on patterns fast.
 
 **Constraints**: specifying what you don't want, or setting boundaries on the output. "No more than 200 words." "Use only information from the text I provided." "If you're not confident about something, say so." These don't always work perfectly, but they shift the distribution of outputs in your direction.
 
@@ -32,25 +32,25 @@ None of these are revolutionary. They're ways of being specific about what you n
 
 **Thinking modes and model differences**
 
-Many models now offer a "thinking" or "extended reasoning" mode (sometimes called chain-of-thought). When activated, the model works through a problem step by step before giving its final answer. This genuinely helps with certain tasks - anything involving logic, maths, multi-step reasoning, or planning. It doesn't guarantee correctness, and it adds latency and cost, but it can meaningfully improve output quality on hard problems.
+Many models now offer a "thinking" or "extended reasoning" mode (sometimes called chain-of-thought). When activated, the model works through a problem step by step before giving its final answer. This genuinely helps with certain tasks - anything involving logic, maths, multi-step reasoning, or planning. It doesn't guarantee correctness, and it adds waiting time and cost, but it can meaningfully improve output quality on hard problems.
 
-For simpler tasks - summarising, reformatting, brainstorming - thinking mode usually adds little. It's a tool for when the task is genuinely difficult, not a "make everything better" button.
+For simpler tasks - summarising, reformatting, brainstorming - thinking mode usually adds little. It's a tool for when the task is genuinely difficult, not a "make everything better" button. Many model interfaces now try to decide by themselves whether "thinking" is needed. This is getting better, but if you want a thorough review of a paper, for example, it can be worth turning this on explicitly.
 
 Meanwhile, different models still have genuinely different strengths. Some are better at creative generation, others at careful analysis. Some follow instructions more precisely, others take more initiative. Rather than searching for the one best model, it's worth thinking of them as an ensemble of specialists. If one model's output isn't working for a task, try another before concluding that AI can't help.
 
+That doesn't mean you need multiple paid subscriptions. Most providers offer free tiers that are more than enough for trying out a model, and multi-model platforms like [t3.chat](https://t3.chat/) let you compare several in one place. One paid subscription to whichever provider you like best, plus occasional free-tier use of others, should cover most needs.
+
 **Interaction over incantation**
 
-Here's the real shift in thinking about prompting: the goal is conversation, not a perfect one-shot prompt. The most effective AI use I've seen in research involves back-and-forth - an initial prompt, then refinement. "This is close but too general - can you focus on the methodological criticisms?" or "Good list, but you missed [X] - what else is in that space?"
+There is another important shift in thinking about prompting: the goal is conversation, not a perfect one-shot prompt - at least when you're working through a chat interface. The most effective AI use I've seen in research involves back-and-forth - an initial prompt, then refinement. Personally, I went through several long conversations with multiple LLMs while trying to figure out how to measure diversity on continuous dimensions better. It started with prompts like "I understand diversity as variety, but these commonly used indices seem to measure something different. What am I overlooking?" Over several back-and-forth exchanges, this evolved into requests to draft code for power analyses comparing a novel alternative to the established solutions.
 
-Multi-turn interaction lets you steer the output iteratively, which is both more effective and more forgiving than trying to get everything right in a single prompt. It also means that prompting "skill" matters less than domain knowledge. Knowing what good output looks like - and being able to recognise when you're not getting it - is more valuable than any formatting trick.
-
-[ADD PERSONAL EXPERIENCE: a specific example of multi-turn refinement from your own work]
+With such a collaborative approach, it becomes clear that prompting "skill" matters less than domain knowledge. Knowing what good output looks like - and being able to recognise when you're not getting it - is more valuable than any formatting trick.
 
 ## Try this: iteration ladder (10-12 min)
 
 Pick a real research task - something you actually need to do. A literature summary, a critique of a methods section, a draft of an email to a collaborator, a set of survey items. Anything where you'll be able to judge the quality of the output.
 
-Run four prompts on the same task, in order:
+Run four prompts on the same task (always in a new chat, so that the context is fresh):
 
 1. **Vague:** Ask for what you want in the most casual, unspecific way. ("Summarise this paper." / "Help me write about X.")
 2. **Constrained:** Add specifics. What format? What length? What should it focus on? What audience? ("Summarise this paper in 200 words, focusing on methodology and limitations, for a reader familiar with the field.")
@@ -63,4 +63,4 @@ You might find that the jump from vague to constrained is the biggest improvemen
 
 **Journal prompt**
 
-Which prompting moves - if any - actually changed the quality of your results? Was there a prompt where added specificity made things worse (too constrained, too narrow)? What does this tell you about how you want to work with these tools?
+Which prompting moves - if any - actually changed the quality of your results? Did you come across a situation where added specificity made things worse (too constrained, too narrow)? What does this tell you about how you want to work with these tools?

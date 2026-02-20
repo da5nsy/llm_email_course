@@ -1,7 +1,7 @@
 # DRA GenAI Email Course - Consolidated Outline (v2)
 
 ## Course title
-**Getting Started with Generative AI in Research** (working title - TBD)
+**Generative AI in Research: Use It Well, Use It Critically**
 
 ## Audience
 Social scientists interested in making their research better and more efficient. Not specifically PhD students - no supervision/training focus. Assumes quantitative orientation; qualitative data analysis is optional/sidebar only.
@@ -56,7 +56,7 @@ Replaces the prompt library concept. A simple template (Google Doc) with:
 ## Week 1 - What LLMs are (and aren't)
 
 ### Email 1A (Spark)
-**Subject:** [GAIR] What do you trust AI for (and why)?
+**Subject:** [GAIR] Your AI baseline
 
 **Purpose:** Establish a personal baseline. Begin capability-aware planning.
 
@@ -76,7 +76,7 @@ Replaces the prompt library concept. A simple template (Google Doc) with:
    - Current red lines / tasks you refuse to outsource
    - Goals for this course
 
-2. Tool comparison: ask 2-3 tools the *same* question on a topic you know well. Suggested prompts (pick two):
+2. Tool comparison: ask 2-3 tools the *same* question on a topic you know well. Suggested prompts (pick one, or adapt to your field):
    - "Explain X in plain language for a smart non-expert."
    - "Recommend 6 foundational readings for X and explain why each matters."
    - "Propose 3 plausible hypotheses about X and how you'd test them."
@@ -88,7 +88,7 @@ We generally don't recommend specific models - this becomes outdated fast, and t
 
 **FORRT Slack:** Introduce the channel. Invite participants to share their AI autobiography or one surprising finding from the tool comparison.
 
-**Journal:** What do you currently trust AI for? What are your red lines?
+**Journal:** Copy AI autobiography as first journal entry. What do you currently trust AI for? What are your red lines?
 
 ---
 
@@ -100,16 +100,15 @@ We generally don't recommend specific models - this becomes outdated fast, and t
 **Core concepts:**
 - LLMs predict how text would continue - word by word
   - Tokenisation, then learning patterns of associations
-- "Stochastic Parrot" vs "emergent reasoning" debate (introduced neutrally)
-- Next-token prediction is context-conditioned (long text, not just a sentence)
-- Training data and knowledge cut-offs shape (i.e. bias) outputs
-- AI can generate text from a short prompt or transform information (e.g. from PDFs)
-- Brief mention: open vs closed models, local vs cloud - we'll return to this in Week 8 when we talk about privacy and governance
+- Whether this is "genuine understanding" or "sophisticated pattern-matching" is an open debate (ref: Summerfield, *These Strange New Minds*) - introduced neutrally
+- Fine-tuning and RLHF: models are trained by human raters to prefer certain styles of response → optimised for sounding clear and confident, not for truth. Introduces sycophancy concept (reinforced in W2B)
+- Next-token prediction is context-conditioned (long text, not just a sentence); conversation drift as a consequence
+- AI can generate text from a short prompt or transform existing text (summarise, critique, reformat) — transform mode tends to be more reliable
 
 **Exercise (5-8 min): Context continuation game**
-1. Take a paragraph you wrote (intro, methods, email). Delete the next 1-2 sentences.
-2. Ask the model to continue without adding new factual claims.
-3. Compare: where did it match style but flatten nuance or sneak in new claims?
+1. Take a paragraph you wrote (intro, methods, email). Delete the last 1-2 sentences.
+2. Ask the model to continue for one paragraph.
+3. Compare: did it match your style? Add new claims? Flatten nuance?
 
 **Journal:** Revisit your tool comparison from 1A. Now that you know more about how LLMs work, does anything make more sense?
 
@@ -144,11 +143,12 @@ If you already know about citation hallucination: Try asking about factual claim
 **Purpose:** Explain sycophancy. Introduce the generation-verification asymmetry as a practical decision rule.
 
 **Core concepts:**
-- RLHF (reinforcement learning from human feedback) pushes toward pleasing, agreeable responses - in one-off interactions, this can mean uncritical praise and confident fabrication
+- Building on W1B's introduction of RLHF: sycophancy in practice — models default to agreement, praise, and confidence. Demo this directly.
+- Training data and knowledge cut-offs shape (i.e. bias) outputs — models reflect what's in their training data, have blind spots for recent or underrepresented topics (moved from W1B; reinforces "why be critical")
 - Models have improved, but critical engagement with outputs remains essential
 - There are fancy names for this habit of healthy scepticism - "epistemic vigilance," the Royal Society's motto "nullius in verba" (take nobody's word for it) - but the practice is simple: check before you trust
-- **Asymmetry rule** (moved from 1B): AI is most useful where generation is costly for you and verification is cheap. It's riskiest where verification is hard or expensive.
-- Search-grounded tools help with retrieval but not with judgment
+- **Asymmetry rule**: AI is most useful where generation is costly for you and verification is cheap. It's riskiest where verification is hard or expensive.
+- Search-grounded tools help with retrieval but not with judgment (deferred to W4; only briefly foreshadowed here)
 
 **Exercise (8-10 min): Sycophancy demo → High-ROI audit**
 
@@ -166,7 +166,7 @@ Then (5-8 min): List 5 research tasks you do often. For each, rate: how costly i
 ## Week 3 - Prompting, ideation, and the convergence trap
 
 ### Email 3A (Spark)
-**Subject:** [GAIR] 3A. Prompt hacks are mostly theatre
+**Subject:** [GAIR] Prompt hacks are mostly theatre
 
 **Purpose:** Prompting as specification and interaction, not magic.
 
@@ -175,7 +175,7 @@ Then (5-8 min): List 5 research tasks you do often. For each, rate: how costly i
 - Roles/personas and few-shot examples calibrate output
 - Specifying expectations helps, but broad exploration has its value - think interaction, not one-shot
 - Thinking modes can help on hard tasks; they don't guarantee truth
-- Different models have different strengths - ensemble of experts (within and across)
+- Different models have different strengths - ensemble of specialists (within and across)
 - Many technical prompting tips no longer necessary for top models (they're trained to understand intent), but they can help users clarify their own intent
 
 **Exercise (10-12 min): Iteration ladder**
@@ -192,7 +192,7 @@ Compare results. Where did specificity help most?
 ---
 
 ### Email 3B (Anchor)
-**Subject:** [GAIR] 3B. Better ideas, more of the same: the convergence problem
+**Subject:** [GAIR] Better ideas, more of the same
 
 **Purpose:** Apply prompting to ideation; introduce convergence as structural risk.
 
@@ -207,10 +207,10 @@ Compare results. Where did specificity help most?
 2. Ask for fatal flaws + fixable weaknesses (use a "skeptical senior reviewer" persona).
 3. Write a human rebuttal for the top 3 critiques.
 
-**De-convergence protocol (pick one, 5 min):**
-- Ask for boundary cases where your hypothesis fails
-- Ask for rival hypotheses explaining the same pattern
-- Ask for reverse argumentation (strongest case against your position)
+**De-convergence protocol (pick one, 3-5 min):**
+- "What assumption am I making here that I should think about again?"
+- "Give me five rival hypotheses that would explain the same pattern without invoking [your main mechanism]."
+- "What would be an unconventional approach to testing this idea?"
 
 **Journal:** Where did AI help you think differently? Where did it push you toward the obvious?
 
@@ -305,6 +305,7 @@ Compare results. Where did specificity help most?
 - "Coding agents" are misleadingly named - they're general-purpose tools that happen to be good at code. They can plan, research, organise, draft, and critique.
 - The shift: from "I paste, it responds" to "it works in my context."
 - This intensifies both benefits AND risks.
+- Brief mention: open vs closed models, local vs cloud — agents make this distinction practically relevant (what data leaves your machine?). Expanded in W9B (governance/privacy).
 
 **Exercise (10 min): Your first agent interaction**
 - If you have access to an agent tool (Claude Code, Cursor, GitHub Copilot, etc.): point it at a project folder containing some notes, a draft, and/or a few papers. Ask it to help you plan next steps for the project, or to summarise what's in the folder and identify gaps.
@@ -517,7 +518,7 @@ Choose one:
 **Core concepts:**
 - Publisher policies: GenAI cannot be a co-author; disclosure is required; human accountability is absolute
 - Documentation standards converging: tool name, version, date, what task AI performed, which sections affected
-- Privacy: each tool/provider you share data with needs assessment. Cloud vs local. "Free" often means value extraction.
+- Privacy: each tool/provider you share data with needs assessment. Open vs closed models; cloud vs local (introduced briefly in W5B, expanded here). "Free" often means value extraction.
 - Policies from your institution, funder, professional body, and target journals may all apply - and may conflict
 - Resource proportionality: smaller models for small tasks; no need to send everything to the most powerful (and most data-hungry) option
 
