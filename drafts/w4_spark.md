@@ -28,7 +28,7 @@ Not all grounded tools work the same way, and the distinction matters for how yo
 
 This depends on what you're trying to do. If you have a specific set of documents and need to work with them - synthesise, compare, extract - document-grounded tools like NotebookLM are the right starting point. If you're looking for papers you don't have yet, literature-grounded tools like Elicit can help with discovery. And if you need quick answers about recent events, people, or topics outside the academic literature, web-grounded search tools fill that gap.
 
-In practice, you'll probably find yourself using more than one type. Discovering papers with Elicit, then uploading them to NotebookLM for detailed synthesis, then checking a specific claim with a web search. The tools complement each other when used deliberately.
+In practice, you'll probably find yourself using more than one type. Discovering papers with Elicit, then uploading them to NotebookLM for detailed synthesis, then checking a specific claim with a web search. The tools complement each other when used deliberately. When you do combine tools, keep a brief note of what you used and what you verified - this is good practice for your own records, and increasingly a requirement for transparent reporting.
 
 **What grounding actually gives you**
 

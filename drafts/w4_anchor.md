@@ -50,10 +50,6 @@ Now spend 5 minutes with the actual paper: read the abstract, skim the figures a
 
 If you have time, try one more thing: ask a regular chat LLM (without the paper uploaded) the same questions about this paper. How different are the answers? That's the practical difference between grounded and ungrounded tools.
 
-**Further exploration**
-
-Compare the same research question across three sources: a regular chat LLM, a grounded tool, and a traditional database search (Google Scholar, PubMed, or your discipline's standard). What sources does each surface? Where's the overlap?
-
 **Journal prompt**
 
 How does the grounded tool's output compare to a good Wikipedia article or review paper on a topic you know? What's the difference in nuance, balance, and confidence? Where do you still need your own judgment most?

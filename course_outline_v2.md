@@ -20,9 +20,14 @@ Informal, inviting independence. Not prescriptive. Acknowledges tensions honestl
 ## Capability ladder (course backbone)
 1. What LLMs are (mental model)
 2. Chat interfaces (interactive use, prompting, critical evaluation)
-3. Grounded models (NotebookLM-style tools, working with your own documents)
-4. Agents (coding agents as general-purpose tools, research workflow automation)
-5. Applied challenges woven throughout, intensifying in final weeks
+3. Grounded tools (NotebookLM-style tools, working with your own documents)
+4. Writing with AI (editing, voice, cognitive ownership)
+5. Browser-based coding and data analysis (copy-paste loop, verification)
+6. Agents (coding agents as general-purpose tools, working in your context)
+7. Agent workflows (bounded projects, acceptance criteria)
+8. Governance, SOP, and staying current
+
+**The "browser-only" path**: Someone who does W1-6 but doesn't adopt agents has learned to use chat effectively, work with grounded tools, use AI for writing, and do browser-based data analysis. That's a complete, valuable toolkit. Agents (W7-8) are the advanced track.
 
 ## Learning objectives
 Participants will learn to:
@@ -216,12 +221,12 @@ Compare results. Where did specificity help most?
 
 ---
 
-# Part 2: Grounded Tools & Synthesis (Weeks 4-5)
+# Part 2: Working with Sources, Writing, and Data (Weeks 4-6)
 
 ## Week 4 - Grounded tools: working with your own sources
 
 ### Email 4A (Spark)
-**Subject:** [GAIR] 4A. Chatbots are not search engines
+**Subject:** [GAIR] Chatbots are not search engines
 
 **Purpose:** Introduce grounded tools and why they matter.
 
@@ -230,6 +235,7 @@ Compare results. Where did specificity help most?
 - Grounded tools (RAG - Retrieval Augmented Generation) retrieve from a specific corpus and cite sources
 - Key distinction: tools grounded in *your* documents (NotebookLM) vs tools grounded in *published literature* (Elicit, Consensus) vs tools grounded in *web search* (Perplexity)
 - Source attribution is the key feature: can you trace a claim back to a specific passage?
+- In practice, you'll combine tool types - discovering papers with one, synthesising with another, checking claims with a third. Document what you used and what you verified.
 
 **Recommended tools to try:**
 - **NotebookLM** (Google, free) - upload your own PDFs, get source-attributed Q&A. Clearest example of document grounding.
@@ -249,7 +255,7 @@ Compare results. Where did specificity help most?
 ---
 
 ### Email 4B (Anchor)
-**Subject:** [GAIR] 4B. Grounding helps retrieval - not judgment
+**Subject:** [GAIR] Grounding helps retrieval, not judgment
 
 **Purpose:** Explain RAG and its limits. Teach triangulation.
 
@@ -265,54 +271,54 @@ Compare results. Where did specificity help most?
 3. Compare with: abstract + skim figures/tables + your own judgment.
 4. Note: what did the tool miss? What did it overstate?
 
-**Further exploration:**
-- Compare the same question across: raw chat LLM, grounded tool, and traditional database search (Google Scholar, PubMed). What sources appear? What's the overlap?
-
 **Journal:** How does grounded tool output compare to a Wikipedia entry or review paper on a topic you know? How do you judge nuance, balance, confidence?
 
 ---
 
-## Week 5 - Literature workflows and the transition to agents
+## Week 5 - Writing with AI
 
 ### Email 5A (Spark)
-**Subject:** [GAIR] 5A. Building a literature workflow that actually holds up
+**Subject:** [GAIR] Writing is thinking: keep cognitive ownership
 
-**Purpose:** Practical literature work combining human retrieval with AI synthesis.
+**Purpose:** Use AI for clarity without outsourcing synthesis or stance.
 
 **Core concepts:**
-- The human finds and validates sources; AI helps with comparison, extraction, and gap identification
-- Documentation matters: which tools used, what queries, what was verified
-- AI is interdisciplinary - boon (cross-field connections) and curse (flattening disciplinary nuance)
+- Writing is a mode of thinking, not just reporting. Outsourcing the writing can mean outsourcing the thinking.
+- AI for editing (clarity, structure, flow) vs AI for generating (arguments, interpretation, stance) - the distinction matters
+- The two-pass approach: use AI for structural critique first, then style smoothing with constraints
+- The "composite voice" problem: AI produces generic, polished prose that sounds like everyone and no one
+- Reflect: what's hard for you in writing? Where do your ideas actually happen? If AI does the drafting, who does the thinking?
 
-**Exercise (10-15 min): Literature comparison**
-1. Take a specific research question you're working on.
-2. Search for it using: (a) traditional database search, (b) a chat LLM, (c) a grounded literature tool (Elicit/Consensus).
-3. Compare: coverage, accuracy, novelty of sources found, quality of synthesis.
-4. Draft a brief note: which approach found what, and what workflow would you use going forward?
+**Exercise (10-12 min): Two-pass writing**
+1. Take a paragraph from work in progress.
+2. Pass 1: Ask AI for a logic-only critique (no rewriting, just identify where logical connections are missing or weak).
+3. You revise based on the critique.
+4. Pass 2: Ask AI for style smoothing with constraints: "no new claims; highlight any changes that alter meaning."
+5. Compare: which pass was more useful? What did the AI change that you'd want to change back?
 
-**Journal:** What's your emerging literature workflow? What role does each tool type play?
+**Journal:** Where in your writing process is AI most helpful? Where does it get in the way of your thinking?
 
 ---
 
 ### Email 5B (Anchor)
-**Subject:** [GAIR] 5B. From copying and pasting to working in context
+**Subject:** [GAIR] When everyone's prose sounds the same
 
-**Purpose:** Motivate the shift from chat to agents. Bridge to Part 3.
+**Purpose:** Peer review, convergence in writing, and the limits of polish.
 
 **Core concepts:**
-- So far: you've been copying text into chat windows and grounded tools. The AI only sees what you paste.
-- Agents work differently: they can see your files, operate across documents, execute multi-step tasks, and iterate on their own work.
-- "Coding agents" are misleadingly named - they're general-purpose tools that happen to be good at code. They can plan, research, organise, draft, and critique.
-- The shift: from "I paste, it responds" to "it works in my context."
-- This intensifies both benefits AND risks.
-- Brief mention: open vs closed models, local vs cloud — agents make this distinction practically relevant (what data leaves your machine?). Expanded in W9B (governance/privacy).
+- AI for self-review (pre-submission stress test): acceptable and useful
+- AI for reviewing others' confidential manuscripts: ethically problematic (confidentiality, intellectual laziness)
+- Even individually better reviews could converge, reducing the diversity of perspective that peer review depends on
+- Check your journal/conference policies - many now require disclosure of AI use in writing and reviewing
+- The polish trap: AI can make anything sound smooth. But smooth isn't the same as clear, and clear isn't the same as right.
 
-**Exercise (10 min): Your first agent interaction**
-- If you have access to an agent tool (Claude Code, Cursor, GitHub Copilot, etc.): point it at a project folder containing some notes, a draft, and/or a few papers. Ask it to help you plan next steps for the project, or to summarise what's in the folder and identify gaps.
-- If not: try a free-tier agent or extended conversation where you upload multiple documents and ask for a structured plan across them.
-- Note: what could the agent do that chat couldn't? What felt different?
+**Exercise (5-8 min): The edit audit**
+1. Take a paragraph you wrote recently and ask AI to edit it for clarity.
+2. Compare the original and edited versions side by side.
+3. Note: what's genuinely better? What's lost (voice, hedging that was intentional, nuance)?
+4. Would a reader know which version was yours?
 
-**Journal:** What surprised you about what the agent could/couldn't do?
+**Journal:** How do you tell the difference between polish that helps and polish that flattens?
 
 ---
 
@@ -321,51 +327,108 @@ Compare results. Where did specificity help most?
 **Subject:** [GAIR] Halfway: what's changed in your practice?
 
 - No need to catch up; each email stands alone.
-- Next half focuses on agents, data analysis, writing, and governance.
+- First half: mental models, chat, grounded tools, writing. Next half: hands-on data work, agents, governance.
 - Reflection prompt (reply-to-email): "One habit you've started - or one temptation you've noticed - since Week 1?"
 - Reminder: FORRT Slack channel for sharing experiences.
 - Recommitment invitation: "If you've fallen behind, this is a good re-entry point. The next five weeks are the most hands-on."
 
 ---
 
-# Part 3: Agents (Weeks 6-8)
-
-## Week 6 - Agents are general-purpose tools
+## Week 6 - AI for coding and data: in the browser
 
 ### Email 6A (Spark)
-**Subject:** [GAIR] 6A. Your new research assistant works locally
+**Subject:** [GAIR] Let it write your code, then check everything
 
-**Purpose:** Demystify agents. Show breadth of capability beyond coding.
+**Purpose:** Hands-on data analysis using browser-based AI tools. Two tracks.
 
 **Core concepts:**
-- What agents actually are: systems that operate with your project in context, can read/modify files, execute code, and iterate across multiple steps
-- Key difference from chat: stateful, multi-step, working with your actual files
-- The jagged frontier sharpened: agents are spectacular at some tasks and silently wrong at others, and the boundary is unpredictable. Testing per task is essential.
-- Examples of non-coding agent tasks: organising literature notes, drafting structured summaries from multiple documents, comparing datasets, generating project plans
+- Using AI to write, run, and debug code via browser tools (ChatGPT code interpreter, Claude artifacts, Google Colab + chat)
+- No local setup needed - everything runs in your browser
+- Two tracks: quant (data cleaning, visualisation, simple analysis on a public dataset) and text processing (reformatting references, extracting data from tables, cleaning messy text)
+- The practical experience of the copy-paste loop: upload data, run analysis, hit a wall, paste error back, iterate
+- Core message: AI-generated code may run without errors but produce wrong results. Domain knowledge is what catches the silent failures.
 
-**Exercise (10-15 min): Bounded agent task**
-Choose one:
-- **Planning/organising:** Point an agent at a set of project files and ask it to create a structured summary of where things stand + what's missing.
-- **Text analysis:** Give an agent ~20 open-ended survey responses or interview transcripts (from a public source or your own non-sensitive data - e.g. the [Reading the Riots transcripts](https://reshare.ukdataservice.ac.uk/853792/)) and ask it to extract and categorise themes. Compare to your own reading of the responses.
-- **Literature extraction:** Give an agent 3-5 PDFs and ask it to produce a comparison table (claims, methods, limitations, gaps).
+**Exercise (10-15 min): Browser data analysis (pick one track)**
 
-**Journal:** What surprised you about what the agent could/couldn't do? Where was the jagged frontier?
+*Quant track:*
+1. Take a dataset you're working with (or a public dataset, e.g. from GSS, ANES, Pew).
+2. Upload it to ChatGPT (code interpreter), Claude, or a Google Colab notebook.
+3. Ask a specific analysis question (e.g., "Explore the relationship between X and Y, controlling for Z").
+4. Iterate: when it hits an error, paste the error back. When it produces output, check it.
+5. Run a "broken legs" sanity check: impossible values, coding inversions, missingness patterns.
+
+*Text processing track:*
+1. Take a messy data task: reformatting a reference list, extracting data from a table in a PDF, cleaning inconsistent variable names.
+2. Upload the data to a browser-based AI tool.
+3. Ask it to process the data with specific output requirements.
+4. Spot-check at least 5 entries against the original.
+
+**Journal:** What did the AI get right that would have taken you a while? What did it get wrong that you almost missed? How did the copy-paste workflow feel?
 
 ---
 
 ### Email 6B (Anchor)
-**Subject:** [GAIR] 6B. The jagged frontier: spectacular and silently wrong
+**Subject:** [GAIR] When cheap iteration becomes a confound
+
+**Purpose:** The forking-paths problem. Pre-commitment as discipline.
+
+**Core concepts:**
+- AI lowers the cost of trying analytical alternatives - that's the browser coding experience from Monday, scaled up
+- Without discipline, easy iteration becomes p-hacking-by-accident
+- Pre-commitment: decide your primary analysis before running alternatives
+- "Broken legs" checks: cheap sanity checks that catch obvious data problems before substantive analysis
+- The copy-paste friction is now palpable - if you found yourself uploading data, hitting limits, pasting errors back, you've felt the workflow that agents are designed to smooth out
+
+**Exercise (8-10 min):**
+1. Take an analysis you ran (or plan to run).
+2. Ask an AI to list all reasonable analytic choices and decision points.
+3. Pick one primary plan and write a one-sentence pre-commitment: "Primary analysis will be [X] unless [predefined condition Y occurs], in which case we will [Z]."
+
+**Further exploration:**
+- Multimodal extraction: screenshot a table/chart from a PDF, ask a model to transcribe to CSV, spot-check 5 random cells. High-ROI where verification is cheap.
+
+**Journal:** How many analytic choices did the AI surface that you hadn't considered? How does that change your thinking about pre-registration?
+
+---
+
+# Part 3: Agents (Weeks 7-8)
+
+## Week 7 - From browser to local: introducing agents
+
+### Email 7A (Spark)
+**Subject:** [GAIR] What changes when AI works in your context
+
+**Purpose:** Motivate agents from the browser coding friction. Demystify what agents are.
+
+**Core concepts:**
+- So far: you've been copying text into chat windows, uploading files to browser tools, pasting errors back. The AI only sees what you give it.
+- Agents work differently: they see your files, execute code locally, iterate across steps without you copying anything
+- "Coding agents" are misleadingly named - they're general-purpose tools that happen to be good at code. They can plan, research, organise, draft, and critique.
+- Callback to W6 friction: "Remember uploading that CSV, hitting a limit, pasting the error back? What if the AI could just work in your project folder?"
+- Brief mention: open vs closed models, local vs cloud - agents make this practically relevant (what data leaves your machine?)
+
+**Exercise (10-15 min): Agent meets your project**
+- If you have access to an agent tool (Claude Code, Cursor, GitHub Copilot, Windsurf, etc.): point it at a project folder. Ask it to summarise what's there and identify gaps, or redo part of a W6 analysis locally.
+- If not: try a free-tier option or an extended conversation where you upload multiple files and ask for a structured plan across them.
+- Note: what could the agent do that the browser workflow couldn't? What felt different about not having to copy-paste?
+
+**Journal:** What surprised you about what the agent could/couldn't do? Where did the browser-to-local shift matter most?
+
+---
+
+### Email 7B (Anchor)
+**Subject:** [GAIR] The jagged frontier: spectacular and silently wrong
 
 **Purpose:** Build judgment about when to trust agent output.
 
 **Core concepts:**
 - Agents make mediocre work trivially easy. Excellent work remains just as hard.
-- The risk isn't that agents fail obviously - it's that they fail in ways you might not notice without domain knowledge.
-- Verification strategies: spot-checks, sanity checks, asking the agent to identify its own uncertainties.
-- The generation-verification asymmetry from Week 2 applies with even more force here.
+- The risk isn't that agents fail obviously - it's that they fail in ways you might not notice without domain knowledge
+- Verification strategies: spot-checks, sanity checks, asking the agent to identify its own uncertainties
+- The generation-verification asymmetry from Week 2 applies with even more force here
 
 **Exercise (5-8 min): Evaluate agent output**
-1. Take the output from your 6A exercise.
+1. Take the output from your 7A exercise (or any agent output you've produced).
 2. Identify: 2 things the agent got right that saved you time; 1 thing it got wrong or oversimplified.
 3. How would you have caught the error if you weren't already an expert on this?
 
@@ -380,64 +443,10 @@ Choose one:
 
 ---
 
-## Week 7 - Agents for data analysis
-
-### Email 7A (Spark)
-**Subject:** [GAIR] 7A. Let it run your analysis - then check everything
-
-**Purpose:** Hands-on data analysis with agents. Two tracks.
-
-**Core concepts:**
-- Coding agents for quant work: data cleaning, visualisation, exploratory analysis, statistical modelling
-- The critical caveat: code may run without errors but produce incorrect results
-- You need domain knowledge to validate outputs - this is augmentation, not automation
-- Relevance of test-driven thinking: specify expected outputs before running
-
-**Exercise (10-15 min): Two tracks**
-
-*Quant track:*
-1. Take a dataset you're working with (or a public dataset, e.g. from GSS, ANES, Pew).
-2. Give an agent a specific analysis question (e.g., "Explore the relationship between X and Y, controlling for Z").
-3. Have it write and run the analysis.
-4. Check: Does the code do what you asked? Are the results plausible? Run a "broken legs" sanity check (impossible values, coding inversions, missingness patterns).
-
-*Text analysis track:*
-1. Take a set of open-ended responses or interview transcripts (from a public source or your own non-sensitive data, ~20-50 responses). A good freely available option: the [Reading the Riots transcripts](https://reshare.ukdataservice.ac.uk/853792/) (Guardian/LSE study of the 2011 English riots - 224 redacted interview transcripts).
-2. Ask an agent to: (a) summarise main themes, (b) create a simple coding scheme, (c) apply it to the responses.
-3. Read 10 responses yourself first. Compare: what did the agent catch? What did it flatten or miss? Where did it impose categories that don't fit?
-
-**Journal:** What did the agent get right that would have taken you hours? What did it get wrong that you almost missed?
-
----
-
-### Email 7B (Anchor)
-**Subject:** [GAIR] 7B. When cheap iteration becomes a confound
-
-**Purpose:** The forking-paths problem. Pre-commitment as discipline.
-
-**Core concepts:**
-- AI lowers the cost of trying analytical alternatives → explosion of forking paths
-- This isn't inherently bad, but without discipline it becomes p-hacking-by-accident
-- Pre-commitment: decide your primary analysis before running alternatives
-- "Broken legs" checks: cheap sanity checks that catch obvious data problems before substantive analysis
-- Synthetic/simulated data: useful for testing pipelines, dangerous for inference
-
-**Exercise (8-10 min):**
-1. Take an analysis you ran (or plan to run).
-2. Ask an agent to list all reasonable analytic choices and decision points.
-3. Pick one primary plan and write a one-sentence pre-commitment: "Primary analysis will be [X] unless [predefined condition Y occurs], in which case we will [Z]."
-
-**Further exploration:**
-- Multimodal extraction: screenshot a table/chart from a PDF, ask a model to transcribe to CSV, spot-check 5 random cells. High-ROI where verification is cheap.
-
-**Journal:** How many analytic choices did the agent surface that you hadn't considered? How does that change your thinking about pre-registration?
-
----
-
 ## Week 8 - Agents for research workflows
 
 ### Email 8A (Spark)
-**Subject:** [GAIR] 8A. From ad hoc to designed: bounded agent projects
+**Subject:** [GAIR] From ad hoc to designed: bounded agent projects
 
 **Purpose:** Design and run a structured agent task with acceptance criteria.
 
@@ -458,7 +467,7 @@ Choose one:
 ---
 
 ### Email 8B (Anchor)
-**Subject:** [GAIR] 8B. The grunt work was training: what agents can't replace
+**Subject:** [GAIR] The grunt work was training: what agents can't replace
 
 **Purpose:** The supervision-of-agents problem. What human skills remain essential.
 
@@ -478,47 +487,19 @@ Choose one:
 
 ---
 
-# Part 4: The Big Questions (Weeks 9-10)
+# Part 4: Big Questions (Weeks 9-10)
 
-## Week 9 - Writing, voice, and governance
+## Week 9 - Governance and disclosure
 
 ### Email 9A (Spark)
-**Subject:** [GAIR] 9A. Writing is thinking: keep cognitive ownership
-
-**Purpose:** Use AI for clarity without outsourcing synthesis or stance.
-
-**Core concepts:**
-- Writing is a mode of thinking, not just reporting. Outsourcing the writing can mean outsourcing the thinking.
-- The "composite voice" problem: AI produces generic, polished prose that sounds like everyone and no one
-- AI for editing (clarity, structure, flow) vs AI for generating (arguments, interpretation, stance)
-- Reflect: What's hard for you in writing? Where do your ideas happen? What's your value-add?
-
-**Exercise (10-12 min): Two-pass writing**
-1. Take a paragraph from work in progress.
-2. Pass 1: Ask AI for a logic-only critique (no rewriting, just identify where logical connections are missing or weak).
-3. You revise based on the critique.
-4. Pass 2: Ask AI for style smoothing with constraints: "no new claims; highlight any changes that alter meaning."
-5. Compare: which pass was more useful?
-
-**Peer review boundaries (brief):**
-- AI for self-review (pre-submission stress test): acceptable and useful
-- AI for reviewing others' confidential manuscripts: ethically problematic (confidentiality, intellectual laziness)
-- Even if AI makes each review better individually, it could make reviews converge - reducing the diversity of perspective that peer review depends on
-- Check your journal/conference policies
-
-**Journal:** Where in your writing process is AI most helpful? Where does it get in the way of your thinking?
-
----
-
-### Email 9B (Anchor)
-**Subject:** [GAIR] 9B. The policies that already govern you
+**Subject:** [GAIR] The policies that already govern you
 
 **Purpose:** Make governance practical, not abstract.
 
 **Core concepts:**
 - Publisher policies: GenAI cannot be a co-author; disclosure is required; human accountability is absolute
 - Documentation standards converging: tool name, version, date, what task AI performed, which sections affected
-- Privacy: each tool/provider you share data with needs assessment. Open vs closed models; cloud vs local (introduced briefly in W5B, expanded here). "Free" often means value extraction.
+- Privacy: each tool/provider you share data with needs assessment. Open vs closed models; cloud vs local. "Free" often means value extraction.
 - Policies from your institution, funder, professional body, and target journals may all apply - and may conflict
 - Resource proportionality: smaller models for small tasks; no need to send everything to the most powerful (and most data-hungry) option
 
@@ -531,10 +512,37 @@ Choose one:
 
 ---
 
-## Week 10 - Your SOP and staying current
+### Email 9B (Anchor)
+**Subject:** [GAIR] Staying current without chasing tools
+
+**Purpose:** Build a durable habit for updating your practice.
+
+**Core concepts:**
+- New tools appear constantly. Paradigm shifts are rarer (transformers, chat, thinking, agents). How to tell the difference: does it change what's possible, or just who provides it?
+- Quarterly calibration: pick 2 benchmark tasks (one low-stakes, one high-stakes), define what "pass" looks like, re-test when something changes
+- People to follow for thoughtful AI-in-research commentary (e.g., Ethan Mollick, FORRT community)
+- The jagged frontier shifts: what you tested earlier in the course may be different in 6 months
+
+**Optional pointers to macro risks (brief):**
+- Deskilling / skill atrophy and resulting system failures (cf. aviation)
+- Model collapse (when AI is trained on AI-generated content)
+- Centralisation, commercialisation, and inequality vs narrowing gaps and growth in openness
+- Fraud and slop in the literature
+- AGI and existential risk narratives
+
+**Exercise (5-8 min): Quarterly calibration ritual**
+1. Choose 2 benchmark tasks relevant to your work (one where AI is already good, one where it currently struggles).
+2. Define what counts as "pass" for each.
+3. Put a quarterly reminder in your calendar to re-test.
+
+**Journal:** Which tools or capabilities do you expect to change most in the next year? What would make you update your SOP?
+
+---
+
+## Week 10 - Your SOP
 
 ### Email 10A (Spark)
-**Subject:** [GAIR] 10A. Your AI SOP: boring, reusable, real
+**Subject:** [GAIR] Your AI SOP: boring, reusable, real
 
 **Purpose:** Convert the course into a document you can use and share.
 
@@ -556,30 +564,17 @@ Draw on your 9 weeks of journal entries. The SOP should include:
 ---
 
 ### Email 10B (Anchor)
-**Subject:** [GAIR] 10B. Staying current without chasing tools
+**Subject:** [GAIR] Final reflection
 
-**Purpose:** Build a durable habit for updating your practice.
+**Purpose:** Close the loop. Revisit where you started.
 
 **Core concepts:**
-- New tools appear constantly. Paradigm shifts are rarer (transformers, chat, thinking, agents). How to tell the difference: does it change what's possible, or just who provides it?
-- Quarterly calibration: pick 2 benchmark tasks (one low-stakes, one high-stakes), define what "pass" looks like, re-test when something changes
-- People to follow for thoughtful AI-in-research commentary (e.g., Ethan Mollick, FORRT community)
-- The jagged frontier shifts: what you tested in Week 6 may be different in 6 months
-
-**Exercise (5-8 min): Quarterly calibration ritual**
-1. Choose 2 benchmark tasks relevant to your work (one where AI is already good, one where it currently struggles).
-2. Define what counts as "pass" for each.
-3. Put a quarterly reminder in your calendar to re-test.
-
-**Optional further exploration (macro risks, brief pointers):**
-- Deskilling / skill atrophy and resulting system failures (cf. aviation)
-- Model collapse (when AI is trained on AI-generated content)
-- Centralisation, commercialisation, and inequality vs narrowing gaps and growth in openness
-- Fraud and slop in the literature
-- AGI and existential risk narratives
+- Revisit your W1 AI autobiography - what's changed in your uses, red lines, worries?
+- The capability ladder you've climbed: chat → grounded tools → writing → browser coding → agents → workflows → governance
+- Your SOP is a living document - update it when tools change, when you learn something, when policies shift
 
 **Final reflection prompt (reply-to-email):**
-- "What's one SOP rule you'd hand to a colleague starting out with AI?"
+- "One SOP rule you'd hand to a colleague starting out with AI."
 
 **FORRT Slack:** Share your calibration benchmarks or your biggest takeaway from the course.
 
@@ -601,9 +596,10 @@ Draw on your 9 weeks of journal entries. The SOP should include:
 
 - [ ] Week 1A: Write "What AI should I use?" section with current tool landscape
 - [ ] Week 4A: Finalise grounded tools recommendations (NotebookLM + alternatives)
-- [ ] Week 5B: Write agent onboarding guide (what tools to try, free options)
-- [ ] Week 6B: Write qualitative sidebar with references
-- [ ] Week 7A: Identify/prepare public datasets for both tracks
-- [ ] Week 9B: Compile publisher policy summaries for common social science venues
+- [ ] Week 5A-B: Draft writing emails (writing is thinking, convergence in writing)
+- [ ] Week 6A: Identify/prepare public datasets for browser coding exercise (both tracks)
+- [ ] Week 7A: Write agent onboarding guide (what tools to try, free options)
+- [ ] Week 7B: Write qualitative sidebar with references
+- [ ] Week 9A: Compile publisher policy summaries for common social science venues
 - [ ] Each week: Finalise journal questions
 - [ ] Optional: Identify useful prompt/interaction resources to reference (replacing prompt starter pack)
