@@ -6,37 +6,39 @@ Week 5 of 10 - Writing with AI
 
 ---
 
-If you tried the two-pass test on Monday, you probably noticed something: the logic critique and the style smoothing felt like different kinds of help. One gave you something to think about. The other made your text sound polished. Maybe too polished. Maybe not quite like you anymore.
+If you tried the two-pass test on Monday, you probably noticed something: the logic critique and the style smoothing felt like different kinds of help. One gave you something to think about. The other made your text sound polished. Maybe too polished. Maybe not quite like you anymore. Maybe that was an issue, maybe not.
 
-That difference matters beyond your own writing. It matters for how we read and evaluate each other's work.
+Thinking about AI in writing matters beyond your own writing. It matters for how we read and evaluate each other's work.
 
 **AI for self-review vs reviewing others**
 
-Using AI to stress-test your own manuscript before submission makes sense. It's a tireless first reader that catches the logical gaps and unclear transitions you've become blind to after your fourteenth revision. You know the content. The AI helps with the presentation. You're still doing the thinking.
+Using AI to stress-test your own manuscript before submission makes sense. It's a tireless first reader that catches the logical gaps and unclear transitions you've become blind to after your fourteenth revision - or after tagging yet another set of reviewer feedback onto your own argument. For your own writing, you know the content. The AI helps with the presentation. You're still doing the thinking. And it might become increasingly harder to get others to accept a lack of polish that AI feedback could add in a matter of minutes - at least I get increasingly impatient with grammatical errors and referencing inconsistencies, knowing how easily they could now get caught.
 
-Using AI to review someone else's confidential manuscript is a different situation entirely. Peer review depends on you bringing your specific expertise and perspective to someone else's work. When you outsource that to an AI, two things go wrong. First, there's a confidentiality problem: you're feeding someone's unpublished work into a system whose data practices you may not fully understand. Second, there's an intellectual problem: the reviewer's job is to notice what a general-purpose system can't. The methodological concern that only someone deep in the field would catch. The missed citation that changes the interpretation. The assumption that seemed reasonable until your last study challenged it.
+Using AI to review someone else's manuscript, however, is a different situation ... a complicated one. Peer review depends on you bringing your specific expertise and perspective to someone else's work. So it is not okay to outsource that to anyone else - be that a grad student or an LLM. However, LLMs come with two additional problems. First, there's confidentiality: you're feeding someone's unpublished work into a system whose data practices you may not fully understand. So it's essential to check policies here. Also, there might be an intellectual problem. LLMs are increasingly good at assessing "quality" generically - but they will not know what is happening at the moment in your specific field. So they might demand adherence to protocols from other fields, and ignore what matters most. The methodological concern that matters (only) in your niche. The missed citation that changes the interpretation. The assumption that seemed reasonable until *your* last study challenged it.
 
 **Convergence in review**
 
 Even setting aside the ethics, there's a structural concern. If individual reviewers independently run the same manuscript through the same AI tools, their reviews will converge. Each review might be individually reasonable. But the value of peer review comes partly from getting multiple *different* perspectives. Two reviewers who both used the same model are, in some ways, like one reviewer.
 
-We saw this convergence dynamic in Week 3 when we talked about ideation. The same pattern applies here. AI pushes responses toward the centre of the distribution. In creative work, that flattens novelty. In peer review, it reduces the diversity of critique. The aggregate loss is invisible at the individual level, which is what makes it hard to address.
+We saw this convergence dynamic in Week 3 when we talked about ideation. The same pattern applies here. AI pushes responses toward the centre of the distribution. In creative work, that flattens novelty. In peer review, it reduces the diversity of critique. The aggregate loss is invisible at the individual level, which is what makes it hard to address. And while there are solutions to maintain creativity, we might not want to push an LLM to come up with novel standards for a review :)
+
+**But let's be realistic about peer review**
+
+That said, let's acknowledge how peer review often works in practice. You agreed to review a paper in a weak moment, as a favour to an editor. The deadline was two weeks ago. You finally open the manuscript on a Sunday evening, and it's on a topic adjacent to your expertise but not quite in your wheelhouse. This is not the idealised scenario where two independent experts bring their deep specialist knowledge to bear, and I have certainly found myself in that situation, as a reviewer and (I believe) also as a recipient of some questionable reviews.
+
+In situations like this, an LLM might genuinely have something useful to add. Not as a replacement for your review, but as a second perspective to cross-check against. The key is the order: form your own assessment first, write up your main points, *then* see what the LLM flags. That way your independent judgement comes first, and the AI serves as a check rather than a crutch. Two reviewers don't really form the "crowd" you'd need for true wisdom-of-the-crowd effects anyway, so an additional perspective - even a synthetic one - can add value, as long as it doesn't replace yours.
 
 **The polish trap**
 
-Back to your own writing. AI can make anything sound smooth. A well-prompted edit removes rough edges, balances sentence lengths, adds transitions. The result is professional and readable.
-
-But smooth isn't the same as clear. And clear isn't the same as right.
+Back to our own writing. AI can make anything sound smooth. A well-prompted edit removes rough edges, balances sentence lengths, adds transitions. The result is professional and readable. But smooth isn't the same as clear. And clear isn't the same as right.
 
 Sometimes the rough edges in your writing are there because the idea is genuinely rough. You haven't worked it out yet. The halting sentence that doesn't quite land might be telling you something important about a gap in your argument. Polish it too early and you lose that signal. You end up with a paragraph that reads well and says nothing specific.
 
-This is worth paying attention to, especially in early drafts. Save the AI polishing for late-stage editing, when the ideas are solid and you're refining presentation. In early drafts, roughness can be information.
+This is worth paying attention to, especially in early drafts. Save the AI polishing for late-stage editing, when the ideas are solid and you're refining presentation. In early drafts, roughness can be information. By the way: This also applies to ideas, and to texts you are just generating to put your notes into a clean form. I like AI for "brainstorming" ideas, but certainly had situations where collaborators took my ideas too seriously because they were in clean prose rather than rough bullet points.
 
 **A note on policies**
 
-Many journals and conferences now require disclosure of AI use in writing and reviewing. The policies vary: some ban AI-assisted review entirely, others require disclosure, others haven't addressed it yet. If you're submitting or reviewing, check the specific policy. It takes two minutes and avoids a potentially awkward situation.
-
-[NEEDS CHECK: best central resource for journal AI policies - COPE? Something else?]
+Some journals and conferences now require disclosure of AI use in writing and reviewing. The policies vary: some ban AI-assisted review entirely, others require disclosure, others haven't addressed it yet. When it comes to writing, some define AI use for text editing (naively?) as being like using spell-checks and thus not requiring disclosure. So, if you're submitting or reviewing, check the specific policy. It takes two minutes and avoids a potentially awkward situation. Unfortunately, it is not always obvious where to find such policies - guidelines for authors and reviewers on journal websites are a good starting point.
 
 ## Try this: the edit audit (5-8 min)
 
@@ -48,7 +50,7 @@ Compare the original and edited versions side by side:
 - What's lost? Did the AI remove hedging that was intentional? Flatten a nuance? Change your tone?
 - Would a reader familiar with your work know which version was yours?
 
-If you have time, try a second round: tell the AI to "edit for clarity but preserve the author's voice." Does the output change meaningfully? Is the result closer to what you'd want, or does the AI not really know what your voice is?
+Now try a second round: upload a piece of your writing that you like, and tell the AI to use that as a style reference when editing your paragraph. Does the output change meaningfully? Is the result closer to what you'd want, or does the AI still not really know what your voice is?
 
 **Journal prompt**
 
