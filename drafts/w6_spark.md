@@ -6,19 +6,21 @@ Week 6 of 10 - AI for coding and data
 
 ---
 
-For five weeks, you've been working with text. Prompts, summaries, critiques, writing. This week is about data.
+For five weeks, you've been working with text. Prompts, summaries, critiques, writing. This week is about data and code.
 
-Whether you write code regularly or haven't touched a script since that one stats course, AI has changed the game. You can now describe an analysis in plain language, get working code back, and run it. The barrier between "I know what analysis I want" and "I have results" has dropped dramatically.
+If you already write code - R, Python, Stata - AI has probably already changed how you work. You describe an analysis, get code back, paste it into your environment, and iterate. This email is partly about making that workflow more deliberate.
+
+If you don't write code, this week is an invitation to try. AI has lowered the barrier enough that you can get useful scripts running with no prior programming experience. You describe what you want in plain language, get working code, and run it. You don't need to understand every line - but you do need to understand the output well enough to know whether it's right. That's a skill you already have: it's called being a researcher.
+
+Either way, this week is optional in the sense that the remaining weeks don't require it. If coding isn't relevant to your work and you'd rather skip ahead, you can. But if you've ever thought "I know what analysis I need, I just can't write the code" - this is a good week to experiment.
 
 **AI writes code now**
 
 Here's the basic idea. You open a chat LLM - ChatGPT, Claude, Gemini, whatever you use - and describe what you need. "Write me R code to run a mixed-effects model predicting Y from X1 and X2, with random intercepts for participant." Or "Write a Python script that cleans this CSV: recode these variables, drop incomplete rows, and export a summary table." The AI produces code. You paste it into RStudio, or a Jupyter notebook, or whatever environment you work in. You run it.
 
-If you don't have a local coding environment set up, that's fine too. Tools like ChatGPT's code interpreter, Claude's artifacts, and Google Colab let you upload data and run AI-generated code directly in the browser. You won't get the same flexibility as a local setup, but for many tasks they're more than enough, and they require zero installation.
+If you don't have a coding environment set up, you can use browser-based tools instead. ChatGPT's code interpreter, Claude's artifacts, and Google Colab all let you upload data and run code without installing anything. They're more limited than a local setup, but for getting started they work well.
 
 [NEEDS CHECK: current state of these tools - which are free, which require paid plans, any significant new options]
-
-This works for people who already code and want to speed up routine tasks. It also works for researchers who know what analysis they need but couldn't write the code themselves. Either way, the AI is doing the mechanical part while you focus on what to ask and whether the answer makes sense.
 
 **The copy-paste loop**
 
@@ -48,24 +50,13 @@ Before sharing any data with an AI tool, think about what's in the file. When yo
 
 ## Try this: AI-assisted data analysis (10-15 min)
 
-Pick one track and follow it through. If you have time, try both.
-
-**Quant track:**
-
 1. Take a dataset you're working with, or grab a public one (e.g., from the [General Social Survey](https://gss.norc.org/), [Our World in Data](https://ourworldindata.org/), or another source in your field).
-2. Ask a chat LLM to write code for a specific analysis: "Write R/Python code to explore the relationship between X and Y, controlling for Z" or "Write code to show the distribution of [variable] across [groups]."
-3. Run the code in your environment. If you don't have one, upload the data to ChatGPT's code interpreter or Claude and let it run the analysis in the browser.
-4. Iterate: when you get errors, paste them back. When you get output, check it against what you'd expect.
+2. Ask a chat LLM to write code for a specific analysis: "Write R/Python code to explore the relationship between X and Y, controlling for Z" or "Write code to show the distribution of [variable] across [groups]." If you don't normally write code, R is a good starting point for social science data - ask the AI to include installation instructions for any packages it uses.
+3. Run the code in your environment. If you don't have one set up, upload the data to ChatGPT's code interpreter or Claude and let it run the analysis in the browser.
+4. Iterate: when you get errors, paste them back into the chat. When you get output, check it against what you'd expect.
 5. Sanity check: Are the sample sizes right? Are the scales in the right direction? Do the descriptive statistics match what you'd expect from eyeballing the data?
 
-**Text processing track:**
-
-1. Take a messy data task you've been putting off: reformatting a reference list between citation styles, extracting data from a table in a PDF, cleaning inconsistent variable names or coding schemes.
-2. Ask a chat LLM to write code for the task, or upload the file to a browser tool and let it process directly.
-3. Specify the output format clearly ("Convert to APA 7th edition" or "Output as a CSV with columns for author, year, title, journal").
-4. Spot-check at least 5 entries against the original. Note what it got right and what it changed or dropped.
-
-Whichever track you choose, pay attention to the workflow itself. How much time did you spend shuttling between chat and your editor versus thinking about your research question? When errors came up, did the AI's fix actually solve the problem or introduce new ones?
+Pay attention to the workflow itself. How much time did you spend shuttling between chat and your editor versus thinking about your research question? When errors came up, did the AI's fix actually solve the problem or introduce new ones?
 
 **Journal prompt**
 
