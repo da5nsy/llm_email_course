@@ -20,19 +20,19 @@ If you don't have a coding environment set up, [Google Colab](https://colab.rese
 
 **Why code, not just "analyse this"?**
 
-You can upload a dataset to ChatGPT's code interpreter and just say "analyse this." Some tools will produce entire reports from a single prompt. For a quick first look at unfamiliar data, that's genuinely useful: upload a CSV, ask "what's in here?", and get summary statistics and plots in seconds.
+You can upload a dataset to ChatGPT's code interpreter and just say "analyse this." Some tools will produce entire reports from a single prompt. For a quick first look at unfamiliar data, that's genuinely useful: upload a CSV, ask "what's in here?", and get summary statistics and plots in minutes.
 
-But for anything you'd put in a paper, you need to see the code. When the AI runs analysis behind the scenes and shows you polished output, you can't tell what choices it made. Did it drop missing values or impute them? How did it code that variable? Which observations did it include? You get a clean-looking result with no way to inspect the path that produced it.
+But for anything you'd put in a paper, it's worth seeing (and saving) the code. When the AI runs analysis behind the scenes and shows you polished output, you can't tell what choices it made. Did it drop missing values or impute them? How did it code that variable? Which observations did it include? You get a clean-looking result with no way to inspect the path that produced it - and in extreme cases, AI might even hallucinate in code. The first time I used ChatGPT Code Interpreter, it invented and hard-coded a correlation value to get us over the line. This has become very rare, but can still occur.
 
-Code gives you a record. Even if you didn't write it, even if you only half-understand it, you can read through and see that on line 12 it filtered out participants under 18, and on line 15 it reverse-coded items 3 and 7. You can share that with a collaborator or reviewer. You can run it again on updated data and get the same result. That transparency is why code matters for research, and why learning to at least *read* code is worth the investment, even if AI writes most of it for you.
+Code gives you a record. Even if you didn't write it, even if you don't entirely understand it, you can read through and see that on line 12 it filtered out participants under 18, and on line 15 it reverse-coded items 3 and 7. You can share that with a collaborator or reviewer (or even another LLM for a second critical look). You can run it again on updated data and get consistent results. That transparency is why code matters for research, and why learning to at least *read* code is worth the investment, even if AI writes most of it for you.
 
 **The copy-paste loop**
 
 In practice, code rarely works on the first try. Not because AI makes frequent errors, but because something is specific to your setup, or a detail of the analysis was ambiguous until you tried it. This gives rise to a cycle: you paste the code into your environment, get an error, copy the error message back into the chat, get revised code, try again. Chat window on one side, editor on the other, you in the middle shuttling code and errors back and forth.
 
-This works surprisingly often for getting from "I have data" to "I have results." It also gets tedious. As you get more comfortable reading code, you'll start noticing fixes you could make directly: a typo in a variable name, a wrong file path. Sometimes just fixing the line yourself is faster and teaches you more. The copy-paste loop is a starting point, not a permanent way of working.
+This works surprisingly often for getting from "I have data" to "I have results." It also gets tedious. As you get more comfortable reading code, you'll start noticing fixes you could make directly: a typo in a variable name, a wrong file path. Sometimes just fixing the line yourself is faster and teaches you more, but I have certainly found myself getting stuck in the pattern of copying and pasting, rather than thinking, which is obviously not ideal.
 
-We'll come back to this friction. There are tools that reduce it substantially, and we'll get to those next week.
+We'll come back to the inefficiencies in that workflow. There are tools that reduce it substantially, and we'll get to those next week. Now, there is something more fundamental to address.
 
 **Code that runs is not code that's right**
 
@@ -40,9 +40,9 @@ This is the most important point in this email: AI-generated code can execute wi
 
 The AI might include a missing value indicator (-99) in calculating a mean. Or treat a categorical variable as continuous, or drop rows with missing data so that your sample size quietly changes between analyses. It might run a t-test when your design calls for a paired comparison. Or generate a clean visualisation with mislabelled axes.
 
-You can sometimes spot these by reading the code, and programming expertise helps. But domain knowledge matters more. You know that a negative correlation between these two variables doesn't make theoretical sense. You know your sample should be 450, not 380. You know the groups aren't independent. You know that "strongly agree" is 5, not 1. The AI doesn't know any of this unless you tell it.
+You can sometimes spot these by reading the code, and programming expertise helps. But domain knowledge matters more. You know that a negative correlation between these two variables doesn't make theoretical sense. You know your sample should be 450, not 380. You know the groups aren't independent. You know that "strongly agree" is 5, not 1. The AI doesn't know any of this unless you tell it (or you upload good data documentation).
 
-Running the code is half the job. Checking whether the output makes substantive sense is the other half. AI can help here too: ask it to produce summary statistics, check sample sizes, and create diagnostic plots. But you need to know which checks to ask for, and that knowledge comes from your training as a researcher, not from the tool.
+Generating and running the code is half the job. Checking whether the output makes substantive sense is the other half. AI can help here too: ask it to produce summary statistics, check sample sizes, and create diagnostic plots. But you need to know which checks to ask for, and that knowledge comes from your training as a researcher, not from the tool.
 
 **A note on data privacy**
 
@@ -58,7 +58,7 @@ This week is optional in the sense that the remaining weeks don't build on it di
 4. Iterate: when you get errors, paste them back into the chat. When you get output, check it against what you'd expect.
 5. Sanity check: Are the sample sizes right? Are the scales in the right direction? Do the descriptive statistics match what you'd expect from eyeballing the data?
 
-Think about how much context helps. If the model has your codebook and analysis plan, it will write better code than if you just describe the dataset vaguely.
+Think about how much context helps. If the model has your codebook and analysis plan, it will write better code than if you just describe the dataset vaguely. But beware of putting too much pressure onto the model. The risk of hallucinations and questionable choices increases if the model is tasked with finding support for your hypothesis, rather than with generating open-ended analysis code.
 
 **Journal prompt**
 
