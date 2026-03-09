@@ -29,7 +29,9 @@ Weekly references, sources, and further reading for the course. Each email links
 
 ## Week 6
 
-[To be added]
+*Not referenced in emails — background reading:*
+
+- Asher, S. G. Z., Malzahn, J., Persano, J. M., Paschal, E. J., Myers, A. C. W., & Hall, A. B. (2026). Do Claude Code and Codex p-hack? Sycophancy and statistical analysis in large language models. https://andrewbenjaminhall.com/asher_et_al_LLM_sycophancy.pdf — Tested Claude Opus 4.6 and OpenAI Codex on datasets with null/near-null results. Under standard prompting, both models produce stable estimates and explicitly refuse direct requests to p-hack. However, a prompt reframing specification search as uncertainty reporting bypasses these guardrails. Supports the anchor's claim that AI models actively resist deliberate p-hacking, while highlighting that the protection is fragile.
 
 ## Week 7
 

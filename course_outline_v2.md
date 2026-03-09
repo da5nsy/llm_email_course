@@ -22,12 +22,12 @@ Informal, inviting independence. Not prescriptive. Acknowledges tensions honestl
 2. Chat interfaces (interactive use, prompting, critical evaluation)
 3. Grounded tools (NotebookLM-style tools, working with your own documents)
 4. Writing with AI (editing, voice, cognitive ownership)
-5. Browser-based coding and data analysis (copy-paste loop, verification)
+5. AI-assisted coding and data analysis (chat-to-IDE workflow, verification, forking paths)
 6. Agents (coding agents as general-purpose tools, working in your context)
 7. Agent workflows (bounded projects, acceptance criteria)
 8. Governance, SOP, and staying current
 
-**The "browser-only" path**: Someone who does W1-6 but doesn't adopt agents has learned to use chat effectively, work with grounded tools, use AI for writing, and do browser-based data analysis. That's a complete, valuable toolkit. Agents (W7-8) are the advanced track.
+**The "no agents" path**: Someone who does W1-6 but doesn't adopt agents has learned to use chat effectively, work with grounded tools, use AI for writing, and do AI-assisted data analysis. That's a complete, valuable toolkit. Agents (W7-8) are the advanced track.
 
 ## Learning objectives
 Participants will learn to:
@@ -334,60 +334,52 @@ Compare results. Where did specificity help most?
 
 ---
 
-## Week 6 - AI for coding and data: in the browser
+## Week 6 - AI for coding and data
 
 ### Email 6A (Spark)
 **Subject:** [GAIR] Let it write your code, then check everything
 
-**Purpose:** Hands-on data analysis using browser-based AI tools. Two tracks.
+**Purpose:** Hands-on data analysis using the chat-to-IDE code workflow. IDE-first, with browser tools positioned for exploratory analysis.
 
 **Core concepts:**
-- Using AI to write, run, and debug code via browser tools (ChatGPT code interpreter, Claude artifacts, Google Colab + chat)
-- No local setup needed - everything runs in your browser
-- Two tracks: quant (data cleaning, visualisation, simple analysis on a public dataset) and text processing (reformatting references, extracting data from tables, cleaning messy text)
-- The practical experience of the copy-paste loop: upload data, run analysis, hit a wall, paste error back, iterate
-- Core message: AI-generated code may run without errors but produce wrong results. Domain knowledge is what catches the silent failures.
+- Using AI to write code via chat, then running it in a local environment (RStudio, Jupyter, etc.)
+- Browser tools (ChatGPT code interpreter, Claude artifacts) positioned for quick exploratory looks at data; Google Colab as backup for those without a local setup
+- The copy-paste loop: describe analysis, get code, paste into IDE, hit error, paste error back, iterate
+- Code that runs is not code that's right: AI-generated code can execute without errors but produce wrong results. Domain knowledge catches silent failures.
+- Verification as half the job: sanity checks on sample sizes, scale direction, descriptive statistics
+- Data privacy considerations when sharing data with AI tools
+- Forward reference to W7 agents as solution to copy-paste friction
 
-**Exercise (10-15 min): Browser data analysis (pick one track)**
-
-*Quant track:*
-1. Take a dataset you're working with (or a public dataset, e.g. from GSS, ANES, Pew).
-2. Upload it to ChatGPT (code interpreter), Claude, or a Google Colab notebook.
-3. Ask a specific analysis question (e.g., "Explore the relationship between X and Y, controlling for Z").
-4. Iterate: when it hits an error, paste the error back. When it produces output, check it.
-5. Run a "broken legs" sanity check: impossible values, coding inversions, missingness patterns.
-
-*Text processing track:*
-1. Take a messy data task: reformatting a reference list, extracting data from a table in a PDF, cleaning inconsistent variable names.
-2. Upload the data to a browser-based AI tool.
-3. Ask it to process the data with specific output requirements.
-4. Spot-check at least 5 entries against the original.
+**Exercise (10-15 min): AI-assisted data analysis**
+1. Take a dataset you're working with (or a public dataset, e.g. from GSS, Harvard Dataverse).
+2. Ask a chat LLM to write code for a specific analysis.
+3. Run the code in your environment (or Google Colab if no local setup).
+4. Iterate: paste errors back, check output against expectations.
+5. Sanity check: sample sizes, scale direction, descriptive statistics.
 
 **Journal:** What did the AI get right that would have taken you a while? What did it get wrong that you almost missed? How did the copy-paste workflow feel?
 
 ---
 
 ### Email 6B (Anchor)
-**Subject:** [GAIR] When cheap iteration becomes a confound
+**Subject:** [GAIR] When cheap iteration becomes a risk
 
 **Purpose:** The forking-paths problem. Pre-commitment as discipline.
 
 **Core concepts:**
-- AI lowers the cost of trying analytical alternatives - that's the browser coding experience from Monday, scaled up
-- Without discipline, easy iteration becomes p-hacking-by-accident
+- AI lowers the cost of trying analytical alternatives - easy iteration becomes p-hacking-by-accident
+- Models actively resist deliberate p-hacking requests, but the risk is undisciplined exploration by the researcher, and sycophantic framing can bypass guardrails
 - Pre-commitment: decide your primary analysis before running alternatives
-- "Broken legs" checks: cheap sanity checks that catch obvious data problems before substantive analysis
-- The copy-paste friction is now palpable - if you found yourself uploading data, hitting limits, pasting errors back, you've felt the workflow that agents are designed to smooth out
+- AI strengthens the case for pre-registration - and can help draft one (listing decision points, simulating data, drafting code)
+- Practical habit: keep a log of what you tried and why
 
-**Exercise (8-10 min):**
+**Exercise (5-8 min): Map your analytic choices**
 1. Take an analysis you ran (or plan to run).
 2. Ask an AI to list all reasonable analytic choices and decision points.
-3. Pick one primary plan and write a one-sentence pre-commitment: "Primary analysis will be [X] unless [predefined condition Y occurs], in which case we will [Z]."
+3. Evaluate which are genuinely plausible given theory and disciplinary conventions.
+4. Pick one primary plan and write a one-sentence pre-commitment.
 
-**Further exploration:**
-- Multimodal extraction: screenshot a table/chart from a PDF, ask a model to transcribe to CSV, spot-check 5 random cells. High-ROI where verification is cheap.
-
-**Journal:** How many analytic choices did the AI surface that you hadn't considered? How does that change your thinking about pre-registration?
+**Journal:** How many analytic choices did the AI surface that you hadn't considered? Does that change your thinking about pre-registration?
 
 ---
 
@@ -404,7 +396,7 @@ Compare results. Where did specificity help most?
 - So far: you've been copying text into chat windows, uploading files to browser tools, pasting errors back. The AI only sees what you give it.
 - Agents work differently: they see your files, execute code locally, iterate across steps without you copying anything
 - "Coding agents" are misleadingly named - they're general-purpose tools that happen to be good at code. They can plan, research, organise, draft, and critique.
-- Callback to W6 friction: "Remember uploading that CSV, hitting a limit, pasting the error back? What if the AI could just work in your project folder?"
+- Callback to W6 friction: "Remember the copy-paste loop - shuttling code and errors between chat and your editor? What if the AI could just work in your project folder?"
 - Brief mention: open vs closed models, local vs cloud - agents make this practically relevant (what data leaves your machine?)
 
 **Exercise (10-15 min): Agent meets your project**
