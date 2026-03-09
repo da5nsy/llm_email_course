@@ -35,7 +35,7 @@ Weekly references, sources, and further reading for the course. Each email links
 
 ## Week 7
 
-[To be added]
+- Blattman, C. (n.d.). Getting started with Claude Code. https://claudeblattman.com/setup/ — Beginner-friendly setup guide for installing and using Claude Code, aimed at non-programmers.
 
 ## Week 8
 
