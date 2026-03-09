@@ -37,6 +37,10 @@ The `style_guide.md` is authoritative. Critical rules:
 - **Exercises**: Framed as "Try this" — invitational but clear. Provide escape hatches for different setups.
 - **Placeholders**: Drafts use `[NEEDS CHECK]`, `[NEEDS EVIDENCE]`, `[ADD PERSONAL EXPERIENCE]`, `[CHECK: ...]` for items requiring verification or author input.
 
+## Style checking
+
+Do NOT use the /humanizer skill on course drafts - it is too aggressive. Instead, check drafts manually against `style_guide.md` rules (AI-tell words, structural patterns, tone).
+
 ## Workflow
 
 When drafting new emails:
