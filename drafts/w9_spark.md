@@ -1,4 +1,4 @@
-**Subject:** [GAIR] The policies that already govern you
+**Subject:** [GAIR] Disclosing AI use - policies and principles
 
 ---
 
@@ -10,53 +10,45 @@ You finish a paper. You go to submit. The journal asks: "Was AI used in the prep
 
 You used Claude to restructure your discussion section. ChatGPT debugged your analysis code. An agent extracted data from 15 PDFs. You asked Gemini for feedback on your abstract. What do you write?
 
-If you're not sure, you're not alone. The rules governing AI use in research are clearer than they were a year ago, but they're still patchy, sometimes contradictory, and often more specific than researchers expect. This week is about knowing what applies to you and building habits that keep you on the right side of whatever policies come next.
+If you're not sure, you're not alone. The rules governing AI use in research are clearer than they were a year ago, but they're still patchy, sometimes contradictory, sometimes outdated. This week is about knowing what applies to you, building habits that keep you on the right side of whatever policies come next - and thinking about your stance toward disclosure, regardless of specific policies.
 
-**What publishers require**
+**The rules as they stand**
 
-Most major publishers have converged on a few principles:
+Most major publishers have converged on a few principles: AI cannot be listed as an author (it can't take responsibility for the work), you must disclose AI use in a methods statement or declarations section, and human authors bear full responsibility for everything in the manuscript, including anything AI helped produce.
 
-- AI cannot be listed as an author. It can't take responsibility for the work, so authorship doesn't apply.
-- You must disclose AI use, typically in a dedicated methods statement or acknowledgments section.
-- Human authors bear full responsibility for accuracy, integrity, and originality - including anything AI helped produce.
+Documentation standards are also getting more specific. Best practice is moving toward naming which tool (and version) was used, when, and for what task. "We used ChatGPT to support data analysis" is too vague to be useful. "We used GPT 5.4 Thinking to review the analysis code, which identified two minor bugs that we resolved" gives a reader something to work with. When you use AI for "pair writing" or thorough editing, such detailed disclosure becomes harder. Journals' stance differ on this - some treat AI writing assistance as equivalent to spell-checking. Personally, I disagree and would always include it (for now).
 
-Documentation standards are getting more specific. Best practice is moving toward specifying: which tool (name and version), when, for what task, and which parts of the manuscript were affected. "I used ChatGPT for editing" is too vague to be useful to anyone. "I used Claude 3.5 Sonnet (October 2024) to suggest structural revisions to the Discussion, which I then substantially rewrote" gives a reader something to work with.
+Beyond journals, your university, funder, and professional body may all have their own guidance. The details vary enormously. Some institutions have issued comprehensive frameworks; others are silent, where policy simply hasn't caught up. Policies are often outdated as soon as they're written - I've seen one recently that requires keeping a full log of prompts, which is very hard with agentic AI use, and generally relies on an outdated mental model. Funders are also starting to set boundaries on AI use in grant applications. The practical headache is that these policies don't always align with each other, or with journal requirements. So we need to check what applies to us, and expect to re-check periodically. If your data is sensitive, also remember to check the provider's data policy and privacy settings (we covered this in more detail in Week 7).
 
-Check your target journals before you submit. Nature, Science, and most Elsevier and Springer journals have explicit policies. Many are broadly similar, but some have specific requirements about what counts as adequate disclosure. If you publish across disciplines, you may need to satisfy different standards for the same paper. The habit of checking matters more than memorising current rules, because these policies are still evolving.
+**Principles over policies**
 
-**Your institution, funder, and professional body**
+Given the patchwork of rules, what should guide your practice when the policies are silent, ambiguous, or contradictory?
 
-Journals aren't the only ones with policies. Your university likely has guidance on AI use in research, though the detail varies enormously. Some institutions have issued comprehensive frameworks; others are silent, which doesn't mean anything goes. It usually means policy hasn't caught up with practice.
+Transparency is the short answer. Nobody has been penalised for over-disclosing their AI use (though there may be negative gut reactions). The same is not true for under-disclosing. When in doubt, I would say more rather than less.
 
-Funders are moving more slowly, but some have started requiring disclosure or setting boundaries on how AI is used in grant-funded work. Professional bodies in your field may have their own guidelines too. Check your grant terms and your association's ethics code.
+There's a deeper argument here too. While I disagree with some of the critical take in Guest et al. (2025), their point that we should focus on enforcing existing standards of scrupulousness, transparency, independence and responsibility - rather than creating new ad-hoc AI-specific policies that will always come with gaps and expiry dates - is compelling. The principles that make research trustworthy haven't changed: be honest about how the work was done, take responsibility for its accuracy, make it possible for others to evaluate your process. AI doesn't change what good practice looks like. It just creates new situations where you need to apply it.
 
-The practical headache is that these policies don't always align. A journal might require disclosure that your institutional guidance doesn't mention. A funder might restrict AI use in ways a journal doesn't care about. When in doubt, more transparency is safer. Nobody has been penalised for over-disclosing their AI use. The same is not true for under-disclosing.
+So rather than memorising which journal requires which specific disclosure format, build the habit of documenting your AI use as you go. Note the tool, the task, the scope of the contribution. When it's time to submit, you'll have something concrete to draw from instead of trying to reconstruct months of work from memory. Keeping research notes has been good practice for a long time; I have found AI to be quite helpful in building better habits there.
 
-**The collaborator problem**
+**AI use in a research team**
 
-Here's something the formal policies often miss: what happens when you use AI on shared work?
+The disclosure question gets harder when other people are involved.
 
-I recently heard about a researcher who discovered that a collaborator had been using an AI coding agent to make contributions to their shared GitHub repository. The commits arrived with a "Co-Authored-By: Claude" tag in the commit history - something the contributor hadn't mentioned or discussed. The code was fine. The problem was that nobody had agreed to AI contributions in a shared project, and one researcher was now associated with AI-assisted work they hadn't consented to.
+I recently contributed to a software package on GitHub, and generated parts of the code and the submission with Claude Code. In my spirit of transparency, I left the default setting on that adds a "Co-Authored-By: Claude" tag, so that Claude is now publicly visible as a contributor to the project. The code was fine. But some colleagues were (rightly) unhappy to be associated with AI-generated code without prior discussion.
 
-This kind of situation is going to come up more. If you're working on a shared paper, a joint dataset, or a collaborative codebase, your AI use affects your collaborators. They may have different views on AI, different institutional requirements, or different comfort levels with disclosure. Using AI on collaborative work without discussion is a bit like bringing an undisclosed research assistant onto a project - the work might be good, but the process matters.
+This kind of situation will come up more. If you're working on a shared paper, a joint dataset, or a collaborative codebase, your AI use affects your collaborators. They may have different views on AI, different institutional requirements, or different comfort levels around disclosure. Using AI on collaborative work without discussion is a bit like bringing an undisclosed research assistant onto a project - the work might be good, but the process matters.
 
-The practical fix is straightforward: have the conversation before it becomes a problem. It doesn't need to be a formal agreement, though for large projects it probably should be. At minimum: "I'm planning to use [tool] for [task]. Are you comfortable with that? How should we disclose it?" If AI contributions end up in shared outputs, everyone involved should know and agree. This is especially important when AI use might be visible to others - co-author tags in version control, stylistic tells in writing, or metadata that tools sometimes embed in files.
+There's a subtler issue too. AI changes how we read each other's work. Clean, polished output used to signal careful thought and commitment. Now it might mean that, or it might mean a quick AI pass without much review. You can't tell from the output alone. In practice, many teams end up on a "don't ask, don't tell" footing around AI use - but that quietly erodes the trust that makes collaboration work. If you can't tell whether a draft represents two days of thinking or ten minutes of prompting, you've lost a signal you used to rely on. The way to get it back isn't to ban AI use. It's to be explicit about it.
 
-**Privacy: a brief reminder**
-
-We covered data handling in Week 7 - what leaves your machine when you use an agent, cloud vs local processing, the difference between open and closed models. The same principles apply here. One thing worth adding: free tools often have weaker data protections than paid ones. Some free tiers explicitly reserve the right to use your inputs for training. If your data requires ethics approval, check the provider's terms before uploading it.
-
-**Resource proportionality**
-
-A quick practical point. You don't need to send everything to the most powerful available model. A grammar check doesn't need a frontier model. Routine formatting doesn't need an agent. Using smaller, cheaper, and where possible local tools for small tasks is partly about cost, partly about data exposure, and partly about not reaching for the most resource-hungry option by default. Match the tool to the task.
+Have the conversation before it becomes a problem. It doesn't need to be a formal agreement, though for large projects that might make sense. Just ask: "I'm planning to use [tool] for [task]. Are you comfortable with that? How should we disclose it?" If AI contributions end up in shared outputs, everyone involved should know and agree.
 
 ## Try this: policy hunt + disclosure draft (10-15 min)
 
 1. Locate the AI use policies that apply to your work. Check: your institution's research guidelines, your funder (if applicable), two journals you might submit to, and your professional body (e.g., APA, BSA, APSA).
-2. For each, note: what's explicitly required? What's ambiguous? What's not addressed at all?
-3. Draft a brief AI disclosure statement suitable for your next paper. Be specific: name the tools, the tasks, the sections affected.
-4. If you currently work with collaborators, draft a short "AI use agreement" you could propose to the team. What would you want to know about a collaborator's AI use? What would you want them to know about yours?
+2. For each that you find, note: what's explicitly required? What's ambiguous? What's not addressed at all?
+3. Draft a brief AI disclosure statement suitable a paper you are currently working on (or might work on soon). Be specific: name the tools, the tasks, the sections affected.
+4. If you currently work with collaborators: do you have a shared understanding of AI use? If not, consider raising it.
 
 **Journal prompt**
 
-Where are your personal red lines now compared to Week 1? What's shifted? What would you need to see in a collaborator's AI disclosure to feel comfortable?
+Flip the perspective: what would you want to know about AI use when *reviewing or reading* someone else's paper? What level of detail would actually be useful to you? How does that shape what you think you should disclose in your own work?

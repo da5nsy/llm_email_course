@@ -493,7 +493,7 @@ Choose one:
 - Documentation standards converging: tool name, version, date, what task AI performed, which sections affected
 - Privacy: each tool/provider you share data with needs assessment. Open vs closed models; cloud vs local. "Free" often means value extraction.
 - Policies from your institution, funder, professional body, and target journals may all apply - and may conflict
-- Resource proportionality: smaller models for small tasks; no need to send everything to the most powerful (and most data-hungry) option
+- Resource proportionality: smaller models for small tasks; no need to send everything to the most powerful (and most data-hungry) option. **TODO: dropped from W9A draft for flow reasons; find this a home elsewhere (W7A data/privacy section? W10A SOP data handling? standalone tip?)**
 
 **Exercise (10-15 min): Policy hunt + disclosure draft**
 1. Locate the AI use policies that apply to you (institution, funder, 2 target journals, professional body).
