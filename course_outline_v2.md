@@ -507,7 +507,7 @@ Choose one:
 ### Email 9B (Anchor)
 **Subject:** [GAIR] Staying current without chasing tools
 
-**Purpose:** Build a durable habit for updating your practice.
+**Purpose:** Build a durable habit for updating your practice. **TODO: Draft is ~1300 words, well over anchor target of 600-800. Revisit length - consider trimming or accepting as an intentionally longer penultimate email.**
 
 **Core concepts:**
 - New tools appear constantly. Paradigm shifts are rarer (transformers, chat, thinking, agents). How to tell the difference: does it change what's possible, or just who provides it?
