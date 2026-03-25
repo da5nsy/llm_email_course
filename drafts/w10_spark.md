@@ -6,83 +6,84 @@ Week 10 of 10 - Your SOP
 
 ---
 
-For nine weeks you've been experimenting, reflecting, and building a sense of where AI helps your work and where it doesn't. You've got a journal full of observations (or at least some scattered notes) about what worked, what failed, and what surprised you.
+For nine weeks you've been experimenting, reflecting, and building a sense of where AI helps your work and where it doesn't. You've got a journal full of observations (or maybe some scattered notes) about what worked, what failed, and what surprised you.
 
-This week, you turn that into something you can actually use.
+This week, let's turn that into something you can actually use.
 
 **Why bother with an SOP**
 
 "Standard operating procedure" sounds bureaucratic, and that's partly the point. The value of an SOP is that it turns ad hoc decisions into defaults. Instead of deciding every time whether to use AI for a particular task, you've already thought it through. Instead of improvising a disclosure statement at submission, you have a template. Instead of wondering whether your collaborators know about your AI use, you have a conversation starter.
 
-It's also a communication tool. When a collaborator asks "do you use AI?", handing them your SOP is more useful than a vague "sometimes, for some things." When a journal asks for disclosure, your SOP gives you something concrete to draw from. When your institution eventually asks for documentation of your practices (and they will), you'll have it.
+It's also a communication tool. When a collaborator asks "do you use AI?", handing them your personal SOP is more useful than a vague "sometimes, for some things." When a journal asks for disclosure, your SOP gives you something concrete to draw from. When your institution eventually asks for documentation of your practices (which does seem likely), you'll have it.
 
-And it's a living document. Thursday's quarterly calibration exercise was built for exactly this reason - your frontier shifts, your SOP should shift with it. Date your SOP, and update it when things change.
+And it's a living document. Last Thursday's idea of regular calibration was built for exactly this - the AI frontier shifts, and your SOP should shift with it. Date it, and update it when things change.
 
-**The template**
+**Two SOPs, two researchers**
 
-Here's a structure that covers the important ground. Adapt it to your work - skip sections that don't apply, add ones that do. The goal isn't completeness for its own sake. It's that you've thought through the questions that matter for your specific practice.
+Rather than describing each section, here are two example SOPs from fictional researchers. Both are thoughtful. They draw very different lines. Read them and notice which decisions you agree with from each - that's where your own SOP lives.
 
-**1. Green zone (routinely allowed)**
+> **Dr. A** (postdoc, survey research, AI-forward)
+>
+> *Green zone (use routinely):* Brainstorming study designs and research questions (ChatGPT/Claude Chat). Writing R code for analyses (Claude Code), then test against simulated data. Editing drafts for clarity (Claude Cowork), then review via tracked changes. Summarising papers I've already read (NotebookLM). First drafts of methods boilerplate (Claude Code), then rewrite and check every technical claim.
+>
+> *Amber zone (use with checks):* Literature discovery (Elicit), then verify every paper exists, spot-check claims against originals. Exploratory data analysis (Claude Code): pre-commit primary analysis plan first, log all iterations, flag AI-suggested directions as post-hoc. Discussion sections (Claude Chat): use as thinking partner to test arguments, then I rewrite in my voice.
+>
+> *Red zone (never):* No identifiable data in cloud tools; anonymise first. No undisclosed AI-generated text. No AI generated citations/claims unless I have checked the original. No AI on collaborative projects without team discussion.
+>
+> *Data handling:* Anything destined for open data can go into cloud AI tools, which in practice means all my analysis datasets. This is one more reason to anonymise early. Raw identifiable data never touches AI.
+>
+> *Peer review:* My own manuscripts: Claude Code for reproducibility checks and structural feedback, with disclosure. Others' manuscripts: if it's available as a preprint, I use Claude Chat to check my review for omissions; I draft the review first, then ask AI to flag what I might have missed. Moving towards only reviewing for journals that permit AI-assisted review, as it produces better reviews.
+>
+> *Disclosure default:* "AI tools ([tool names]) were used to assist with [specific tasks]. All AI-generated content was reviewed and verified by the authors. No identifiable participant data was processed by AI tools."
 
-Tasks where you use AI by default, with brief rationale. These are tasks where the benefit is clear, the risk is low, and verification is straightforward. Examples from previous weeks might include: brainstorming, initial literature discovery, code generation for routine analyses, editing for clarity, formatting.
+> **Dr. B** (lecturer, mixed methods, cautious)
+>
+> *Green zone (use routinely):* Brainstorming when stuck (Gemini/ChatGPT); useful for generating options, low stakes. Proofreading for typos and grammar (Grammarly). Generating practice exam questions (ChatGPT); I review and edit all items.
+>
+> *Amber zone (use with checks):* R code for routine analyses (Claude), review line-by-line and test with simulated data before trusting results. Structural editing of my drafts (Claude Cowork), tracked changes, revert anything that shifts my voice. Summarising papers for grant applications (Claude Chat), verify every claim against the original. Any AI-assisted analysis: pre-commit analysis plan, label exploratory vs confirmatory.
+>
+> *Red zone (never):* No identifiable data in cloud tools. No first drafts of substantive sections, I need my thinking in the writing. No AI literature search, AI misses the nuance, and I value the search process itself. No use on shared projects without explicit team agreement. No AI in peer review.
+>
+> *Data handling:* Only published/public data goes to cloud tools. Everything else stays local or doesn't touch AI.
+>
+> *Peer review:* No AI, full stop. Review is professional judgment and the manuscripts are confidential.
+>
+> *Disclosure default:* "AI tools were used for [specific limited tasks: proofreading, code checking]. No research data was processed by AI tools. All substantive content is the authors' own work."
 
-For each: name the task, the tool you typically use, and why you're comfortable with it.
+Both fit on a page. Both are specific enough to be useful. They disagree substantially - and those disagreements reflect genuine differences in values and working style, not one being right and the other wrong.
 
-**2. Amber zone (allowed with checks)**
-
-Tasks where AI is useful but needs oversight. For each: what's the task, what check do you run on the output, and what does "saving a receipt" look like? "Receipt" meaning: what record do you keep so that you or someone else can verify what the AI contributed?
-
-This is where most of the interesting decisions live. Writing assistance, data analysis, literature synthesis - useful, but requiring different levels of verification depending on the stakes.
-
-**3. Red zone (never)**
-
-Your firm lines. These might be ethical (never share identifiable participant data with a cloud tool), professional (never submit AI-generated text as entirely my own without disclosure), or collaborative (never use AI on a shared project without discussion). Short rationales help you remember *why* when you're tempted to make exceptions under time pressure.
-
-**4. Data handling rules**
-
-What goes to cloud tools. What stays local. What never touches AI. This should be consistent with your institution's policies and your ethics approvals. If you don't have clear answers here, that's a gap worth filling now rather than at submission.
-
-**5. Analysis integrity**
-
-Your pre-commitment practice (from Week 6). Your verification checklist for AI-generated code. How you label exploratory vs confirmatory analyses. What you log when iterating. The goal isn't to make analysis rigid - it's to make your decisions traceable.
-
-**6. Peer review boundary**
-
-What you'll use AI for when reviewing your own work vs others' manuscripts. The ethical considerations differ (Week 5 covered this). Having a clear personal rule saves you from making case-by-case judgment calls under deadline pressure. This is also a good place to note what you'd disclose about AI use in a review.
-
-**7. Disclosure defaults**
-
-Your standard AI disclosure statement. Having a default means you adapt it for specific papers rather than writing from scratch each time. Include enough detail to be genuinely useful: tool names, what task each was used for, which sections were affected.
+Your SOP might look like either of these, or neither. If you work with qualitative data, you probably need a section on transcription and coding. If you lead a team, you might need rules about shared use. The structure matters less than the specificity.
 
 **Making it real**
 
-A few tips from experience:
+A few tips from having written mine (honestly only formally when it came to this course):
 
-- Keep it to one page. If it's longer, you won't consult it.
+- Keep it to one or two pages. If it's longer, you won't consult it.
 - Write it for yourself in six months, not for an audience. Use language you'd actually use.
-- Include specific tool names and tasks, not vague categories. "I use Claude for structural feedback on discussion sections" is more useful than "I use AI for writing support."
-- Store it where you'll see it. A pinned note, a README in your project folder, a bookmark. Somewhere you encounter it without effort.
-- Date it. When you update it, note what changed. The history of your SOP is itself useful data about how your practice is evolving.
-
-**Don't aim for permanent**
-
-Your SOP captures your current thinking, not a permanent position. The tools will change. Your expertise will grow. Policies will shift. The value isn't in getting it right forever - it's in having thought it through clearly once, so that future updates are revisions rather than fresh starts.
-
-If it helps: think of this as version 1.0. You'll update it after your first quarterly calibration, after your next paper submission, after the next time a new tool surprises you. That's the system working as intended.
+- Include specific tool names and tasks. "I use Claude for structural feedback on discussion sections" is more useful than "I use AI for writing support."
+- Store it where you'll see it. A README in your project folder, a pinned note, a bookmark. Somewhere you encounter it without effort.
+- Date it. When you update it, note what changed.
+- Consider sharing it publicly. We need more open conversation about AI practices in research, and shared SOPs help everyone calibrate - including people who haven't taken a course like this.
 
 ## Try this: draft your SOP (15-20 min)
 
-Pull up your journal and work through each section. Don't aim for perfection - aim for honest and specific.
+Two ways in, depending on what suits you:
 
-1. Start with the green zone. What do you use AI for without hesitation? List 3-5 tasks with brief rationales.
-2. Move to the red zone. What are your firm lines? 2-3 items with short reasons.
-3. Fill in the amber zone - this is the hardest part. For each task, write one specific verification check.
-4. Add your data handling rules, analysis integrity practices, peer review boundary, and disclosure default.
-5. Read the whole thing. Does it reflect what you've actually learned, not what you think you should say?
+**Option A: Start from the examples.** Copy whichever SOP is closer to your instincts and edit it until it's yours. Delete what doesn't apply, change what doesn't fit, add what's missing. Where you disagree with both Dr. A and Dr. B, write your own version. Where your answer is "I don't know yet," write that down too - that's useful information.
 
-If you've been keeping a journal, go back to your Week 1 entries. Your AI autobiography, your initial red lines, your first tool comparison. How much has shifted?
+**Option B: Draft it with AI.** Paste your journal notes into a chat with a prompt like this:
 
-**FORRT Slack:** Share one SOP rule you'd recommend to a colleague. Not the whole document - just the one rule you think is most broadly useful.
+> Here are my notes from a 10-week course on using AI in research. Based on these, draft a personal AI SOP for me. Use this format as a guide for structure and level of detail:
+>
+> [paste one of the example SOPs above]
+>
+> Be specific about tools, tasks, and verification steps. Where my notes suggest a clear preference, reflect it. Where they're ambiguous, ask me questions rather than guessing.
+
+Then go through the output carefully: what did it get right? What did it project onto you? What's missing? Consider asking for feedback - blind spots, missed opportunities and risks - and see if you get anything useful. This is a fitting meta-exercise: modeling your practice of how to work with AI on a document about how you use AI.
+
+Either way, finish by reading the whole thing and asking: does this reflect what I actually plan to do, not what I think I should say?
+
+**FORRT Slack:** Consider sharing one SOP rule you'd recommend to a colleague. You are welcome to link to the whole document, but focus on just the one rule you think would be most broadly useful.
 
 **Journal prompt**
 
