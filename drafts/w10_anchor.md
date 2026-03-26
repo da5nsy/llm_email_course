@@ -1,32 +1,26 @@
-**Subject:** [GAIR] What I actually think
+**Subject:** [GAIR] The short version
 
----
+So. Ten weeks. If you've been reading along - and better, doing the exercises - you've covered a lot of ground. Chat, sources, writing, coding, agents, workflows, governance. You've (hopefully) drafted your own rules and collected observations about where AI helps your work and where it gets in the way.
 
-Week 10 of 10 - Your SOP
+I want to close with something personal. Not a full recap of the course content - you have the emails for that. Instead, here's the condensed version of what I believe about AI in research right now. Eight ideas, each in a couple of sentences.
 
----
+**1. Next-token prediction is risky, but surprisingly powerful.** LLMs generate plausible text, not truth. That explains hallucination, confident errors, citation fabrication, and sycophancy. But "plausible next token" turns out to get you remarkably far - and when you ground it in specific sources or verify outputs programmatically, it gets you further.
 
-Hi,
+**2. The gap between generating and checking is everything.** AI is most useful when creating something costs you time and verifying it is quick. It's most dangerous when you can't easily tell whether the output is right. How useful AI is for a given task depends on that gap - and on how good *you* are at catching errors in that domain. That needs to drive our adoption choices.
 
-Ten weeks. If you've been reading along - and better, doing the exercises - you've covered a lot of ground. Chat, sources, writing, coding, agents, workflows, governance. You've (hopefully) drafted an SOP and built a journal full of observations about where AI helps your work and where it gets in the way.
+**3. Protect your independent thinking.** Naive AI use pulls toward the middle of the distribution - competent, generic, safe. That's the opposite of what good research needs. For some people, independent writing is essential to thinking. Personally, I find I think more broadly in dialogue, even when the other side is a machine. Either way, the risk is real: if you're not actively maintaining your own perspective, AI will smooth it away.
 
-I want to close with something personal. Not a recap of the course content - you have the emails for that. Instead, here's the condensed version of what I actually believe about AI in research right now. Seven ideas, each in a couple of sentences.
+**4. Delegation skills, not prompting tricks.** Working with AI is like leading team members. What matters is knowing what to delegate, communicating clearly, and specifying what good output looks like. With current models, specific prompting tricks can help, but usually because they force you to think through the task, not because they unlock hidden capabilities.
 
-**1. AI generates plausible text, not truth.** This is the single idea I'd want every researcher to absorb before anything else. It explains hallucination, confident errors, citation fabrication, and sycophancy. Everything else in this course is a footnote to that sentence.
+**5. Use AI as a critic, not a judge.** AI is good at spotting what you might have missed and pushing back on your arguments - *if you ask it to.* It's not calibrated to score or assess the quality of ideas. If you don't steer it, responses tend to be agreeable; you need to specifically prompt for challenge and disagreement. And be wary of framing - once AI suggests an approach, it's hard to unsee it.
 
-**2. Generate where it's cheap to check, be cautious where it isn't.** AI is most useful when creating something costs you time and verifying it is quick. It's most dangerous when you can't easily tell whether the output is right. Knowing which situation you're in, for your specific work, is half the battle.
+**6. Agents are a game-changer.** When AI can interact with files on your machine, run code, and verify its own outputs, it's a different tool entirely. For quantitative work especially, an agent that writes an analysis script, runs it, checks the results, and iterates is genuinely transformative. Not for everything, but for the right tasks, it changes what's practical.
 
-**3. Specificity beats tricks.** Most of what matters in getting good output is knowing what you want. Roles, examples, and constraints help - but they help because they force you to think through the task, not because they unlock hidden capabilities.
+**7. Your frontier is personal, and it moves.** What you can safely delegate depends on what you already know. Stay close to the parts of the frontier that matter for your work - you don't need to track every model release. Keep testing, keep notes, and approach it with some playfulness. Experiment because it's useful (and might be fun). You might well fall behind if you don't - but anxiety is not a good motivation.
 
-**4. Grounding helps retrieval, not judgment.** Tools that work with your documents are a real step up from raw chat for traceable, source-linked information. They still can't weigh evidence, spot subtle problems, or tell you what actually matters in a body of literature. That's your job.
+**8. The ethics are yours to navigate.** These models are trained on data that wasn't provided for that purpose. The energy costs are real. Some of the human annotation work behind them involves poor conditions and low pay. Reasonable people weigh these differently - I think language model training is genuinely different from, say, generating images in a specific artist's style, and that resource use is proportionate to the value when AI is used well. But these are choices, not settled questions. Make yours consciously.
 
-**5. Writing is thinking. Keep the thinking.** AI is genuinely good at editing, structure, and style. It's not good at having your ideas. If you outsource the drafting, check whether you've also outsourced the thinking. Sometimes that's fine. Sometimes it isn't, and the difference matters more than the time you saved.
-
-**6. Bound your tasks, check your work.** Agents are most reliable when you specify what you want, what counts as success, and what to do when uncertain. Open-ended "figure it out" instructions produce output that's hard to evaluate, which is exactly when errors slip through.
-
-**7. Your frontier is personal and it moves.** What you can safely delegate depends on what you already know. Keep testing, keep notes, expect to be surprised in both directions. Update your practices when you notice things have changed - not on someone else's schedule.
-
-That's the course in about 200 words. Everything else was context, exercises, and the experience of trying things for yourself - which was, I hope, the part that actually shifted your thinking.
+That's the course condensed. Everything else was context, exercises, and the experience of trying things for yourself - which was, I hope, the part that actually shifted your thinking.
 
 **One last exercise**
 
@@ -36,10 +30,10 @@ Write a Week 10 version. Same six prompts, new answers. The gap between the two 
 
 **And then**
 
-Your SOP is a living document. Update it when your calibration benchmarks shift, when policies change, when you learn something that surprises you. The tools will keep changing, but the habits you've built - verifying, pre-committing, documenting, reflecting - work regardless of what the models look like next year.
+Your SOP is a living document. Update it when models surprise you (especially on tests that failed earlier), when policies change, or when your work changes. The tools will keep changing, but good habits - verifying, pre-committing, documenting, reflecting - should work regardless of what the models look like next year.
 
 If you found the course useful, I'd genuinely like to hear about it. A quick reply with one thing that changed your practice would be great. And if you're on the FORRT Slack, share your biggest takeaway or your most useful SOP rule - it helps everyone.
 
-Thanks for reading. It's been a pleasure writing this.
+Thanks for reading. It's been a pleasure writing this (and getting to reflect on AI use in the process).
 
 Lukas
