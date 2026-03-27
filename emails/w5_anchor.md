@@ -30,11 +30,9 @@ In situations like this, an LLM might have something useful to add. Not as a rep
 
 **The polish trap**
 
-Back to our own writing. AI can make anything sound smooth. A well-prompted edit removes rough edges, balances sentence lengths, adds transitions. The result is professional and readable. But smooth isn't the same as clear. And clear isn't the same as right.
+Back to our own writing: remember Monday's point about writing as thinking? The same applies to AI polish. Rough edges sometimes signal that the idea itself isn't worked out yet. Polish too early and you lose that signal. You end up with a paragraph that reads well and says nothing specific, but fools you — and potentially your collaborators too. Save AI polish for late-stage editing, when the structure and arguments are solid.
 
-Sometimes the rough edges in your writing are there because *the idea* is rough. You haven't worked it out yet. The halting sentence that doesn't quite land might be telling you something important about a gap in your argument. Polish it too early and you lose that signal. You end up with a paragraph that reads well and says nothing specific.
-
-This is worth paying attention to, especially in early drafts. Save the AI polishing for late-stage editing, when the ideas are solid and you're refining presentation. In early drafts, roughness can be information. By the way: This also applies to ideas, and to texts you are just generating to put your notes into a clean form. I like AI for "brainstorming" ideas, but certainly had situations where collaborators took my ideas too seriously because they were in clean prose rather than rough bullet points.
+This also applies to ideas, and to texts you are just generating to put your notes into a clean form. I like AI for "brainstorming" ideas, but certainly had situations where collaborators took my ideas too seriously because they were in clean prose rather than rough bullet points.
 
 **A note on policies**
 

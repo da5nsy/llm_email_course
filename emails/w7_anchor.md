@@ -32,7 +32,7 @@ Agents make it easy to produce work that clears a basic quality bar. A literatur
 
 But adequate isn't the standard in research. The difference between a competent literature review and one that identifies a genuine gap, between code that runs and code that answers the right question, between a methods section that's accurate and one that anticipates reviewer concerns - that difference still requires expertise. The top 10% of quality still needs you.
 
-This shifts what your time is worth. If the agent handles the first draft in five minutes, your value isn't in producing that draft. It's in knowing what's wrong with it, what's missing, and what needs to change. That's a different skill from writing things from scratch, and for some tasks it might actually be harder (especially if you didn't put in enough thinking at the start).
+This shifts what your time is worth. If the agent handles the first draft in five minutes, your value isn't in producing that draft. It's in knowing what's wrong with it, what's missing, and what needs to change. That's a different skill from writing things from scratch, and for some tasks it might actually be harder. If you are driven by curiosity, like me, agents might also increase the number of exciting but unfinished projects you have around that are all lacking the final 10%.
 
 **Verification strategies**
 
@@ -40,7 +40,7 @@ A few practical habits that help:
 
 - **Spot-check specifics.** Don't just skim agent output for general plausibility. Pick specific claims or numbers and verify them against your source material. If the agent says "7 of 12 participants reported X," check whether it's really 7 of 12.
 - **Ask the agent to flag its own uncertainties and to double-check.** Many agents will tell you where they're less confident if you ask. "Which parts of this output are you least sure about?" won't catch everything, but it's a useful first filter. Similarly, asking another agent (or a new instance of the same agent) to double-check outputs can highlight issues.
-- **Make reports reproducible:** Many of us have heard of tools to write reproducible papers, where numbers are not copy-pasted but filled in by in-line code. This used to be rather fiddly and hasn't caught on widely - but with agents, it is easier and makes it less likely that you rely on outdated figures or data transfer errors.
+- **Make reports reproducible:** Many of us have heard of tools to write reproducible papers, where numbers are not copy-pasted but filled in by in-line code. This used to be rather fiddly and hasn't caught on widely - but with agents, it is easier and makes it less likely that you rely on outdated figures, or that the agent messes up when copying between data analysis and the manuscript.
 - **Run sanity checks on the whole, not just the parts.** Does the overall picture make sense given what you know? Sometimes individual elements are correct but the synthesis is misleading.
 - **Compare against your own understanding.** Before reading the agent's output in detail, write down what you'd expect to find. Then compare. Discrepancies are where the interesting checks are.
 
@@ -50,7 +50,7 @@ None of these are foolproof. Domain knowledge remains the best verification tool
 
 If you work with qualitative data, you may be wondering how agents fit. The short answer: agents can help with some phases of qualitative analysis, but the fit depends heavily on your epistemological commitments.
 
-For keyword detection, surface-level categorisation, and organising large volumes of text, agents perform very well. For interpretive or latent coding - the kind where a code emerges from repeated engagement with the data rather than from a predefined list - they're weaker. They tend to generate more literal, descriptive codes than a human researcher would, and they can miss the kind of meaning that only becomes visible through sustained immersion. At least for now.
+For keyword detection, surface-level categorisation, and organising large volumes of text, agents perform very well. For interpretive or latent coding - the kind where a code emerges from repeated engagement with the data rather than from a predefined list - they're weaker. They tend to generate more literal, descriptive codes than a (good) human researcher would, and they can miss the kind of meaning that only becomes visible through sustained immersion in the context. At least for now.
 
 For reflexive qualitative approaches specifically, there are unresolved tensions. If the method requires you to bring your own perspective and positionality to the analysis, outsourcing interpretation to an AI raises fundamental questions about what the analysis actually is. These debates are active and ongoing. If you're interested, [Ibrahim and Voyer (2026)](https://doi.org/10.1177/14687941251390794) provide a useful starting point.
 

@@ -22,9 +22,9 @@ This gets worse the more you interact. Remember from last week that models respo
 
 Beyond the human-feedback training that pushes models toward agreement, there's another source of bias worth knowing about: training data. Models learn from what's in their training corpus, which means they reflect the patterns, gaps, and biases of that data. Topics that are well-covered in English-language internet text get better responses. Niche subfields, recent publications, and work in other languages are underrepresented. Models also have knowledge cut-offs - they don't know about events or publications after their training data ends, though this boundary is increasingly blurred as models are connected to web search.
 
-So if AI output may be hallucinated, sycophantic and biased, where does that leave us? In my practical experience, still with something that is often very useful. It's also worth remembering that different models have different default personalities here - some are more willing to say "I'm not sure" or push back on your framing, while others default to confident agreement regardless. If you find one model particularly sycophantic or hallucination-prone, try another, at least for the task at hand.
+So if AI output may be hallucinated, sycophantic and biased, where does that leave us? In my practical experience, still with something that is often very useful. Different models also have different default "personalities" here - some are more willing to say "I'm not sure" or push back on your framing, while others default to confident helpfulness. If you find one model particularly sycophantic or hallucination-prone, try another, at least for the task at hand.
 
-There's a fancy term for this calibrated scepticism - *epistemic vigilance* - and an even older one: the Royal Society's motto *nullius in verba*, take nobody's word for it. The practice is simpler than the labels: check before you trust, and know when checking matters most.
+Calibrated scepticism is not a new requirement of scientists - see the Royal Society's motto *nullius in verba*, take nobody's word for it. Check before you trust, and learn when checking matters most.
 
 **A practical rule: the generation-verification asymmetry**
 

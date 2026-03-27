@@ -10,9 +10,8 @@ Social scientists interested in making their research better and more efficient.
 - 10 weeks, 2 emails per week
 - **Email A (Monday, Spark)**: 10-15 minutes, one concrete exercise
 - **Email B (Thursday, Anchor)**: 5-10 minutes, debrief + critical lens + durable takeaway
-- Midpoint check-in email after Week 5
 - Sign up at any time, fully asynchronous
-- Feedback by email; peer exchange on FORRT Slack channel (encouraged at start, midpoint, end)
+- Feedback by email; peer exchange on FORRT Slack channel (encouraged at start and end)
 
 ## Tone
 Informal, inviting independence. Not prescriptive. Acknowledges tensions honestly rather than resolving them neatly.
@@ -322,15 +321,7 @@ Compare results. Where did specificity help most?
 
 ---
 
-**Midpoint check-in email (after Week 5B)**
-
-**Subject:** [GAIR] Halfway: what's changed in your practice?
-
-- No need to catch up; each email stands alone.
-- First half: mental models, chat, grounded tools, writing. Next half: hands-on data work, agents, governance.
-- Reflection prompt (reply-to-email): "One habit you've started - or one temptation you've noticed - since Week 1?"
-- Reminder: FORRT Slack channel for sharing experiences.
-- Recommitment invitation: "If you've fallen behind, this is a good re-entry point. The next five weeks are the most hands-on."
+*Midpoint acknowledgment folded into W6 Spark opening. Standalone check-in dropped — two emails/week provides enough contact. Consider a re-engagement email later based on engagement tracking.*
 
 ---
 
@@ -438,7 +429,7 @@ Compare results. Where did specificity help most?
 ## Week 8 - Agents for research workflows
 
 ### Email 8A (Spark)
-**Subject:** [GAIR] From ad hoc to designed: bounded agent projects
+**Subject:** [GAIR] Steering your AI research assistant
 
 **Purpose:** Design and run a structured agent task with acceptance criteria.
 
@@ -484,7 +475,7 @@ Choose one:
 ## Week 9 - Governance and disclosure
 
 ### Email 9A (Spark)
-**Subject:** [GAIR] The policies that already govern you
+**Subject:** [GAIR] Disclosing AI use - policies and principles
 
 **Purpose:** Make governance practical, not abstract.
 
@@ -556,7 +547,7 @@ Draw on your 9 weeks of journal entries. The SOP should include:
 ---
 
 ### Email 10B (Anchor)
-**Subject:** [GAIR] Final reflection
+**Subject:** [GAIR] The short version
 
 **Purpose:** Close the loop. Revisit where you started.
 

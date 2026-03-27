@@ -28,7 +28,9 @@ If execution becomes cheap, what becomes more valuable?
 
 *Domain judgment.* When the agent produces a result, you need to know whether it makes sense. Not just statistically, but substantively. Does this effect size seem reasonable? Is this interpretation consistent with what we know from adjacent literatures? Would this finding replicate? That judgment comes from years of reading, thinking, and arguing with colleagues. An agent can share one perspective on that, but ultimately you need to make the call.
 
-*Ethical reasoning.* Agents don't have stakes in the outcome. They don't feel the weight of publishing a finding that might influence policy, or the responsibility of handling data from vulnerable populations. The ethical dimensions of research require a kind of judgment that isn't about getting the right answer - it's about caring what happens next. Not in the sense of (only) pursuing specific results, but most certainly in terms of how to communicate them responsibly.
+*Ethical reasoning.* Agents don't have stakes in the outcome. They don't feel the weight of publishing a finding that might influence policy, or the responsibility of handling data from vulnerable populations. The ethical dimensions of research require a kind of judgment that isn't about getting the right answer - it's about caring what happens next. Not in the sense of (only) pursuing specific results, but in terms of how to communicate them responsibly.
+
+*Orchestration.* Designing a research programme, choosing which questions to pursue, coordinating people and tools toward a coherent goal. Frontier agents can already work for weeks on a hard problem (at vast cost, for now), but deciding what problems matter and how they fit together is still yours.
 
 **Agent supervision as a skill**
 
