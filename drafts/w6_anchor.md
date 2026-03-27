@@ -6,7 +6,7 @@ Week 6 of 10 - AI for coding and data
 
 ---
 
-If you tried Monday's exercise, you probably noticed something beyond the copy-paste friction: trying different approaches was remarkably easy. Change a variable, ask for new code, run it. Try a different statistical test, see what happens. Request a different visualisation. Each alternative costs almost nothing.
+Here's something you may have noticed about Monday's exercise: trying different approaches was remarkably easy. Think of a different variable to include, ask for new code, run it. Try a different statistical test, see what happens. Request a different visualisation. Each alternative costs almost nothing.
 
 On Monday, the focus was on whether any single analysis is correct: silent errors, wrong scales, dropped observations. Today is about a different problem. Even when each analysis is individually right, running many of them and reporting the most interesting one introduces bias. And AI makes running many of them very, very easy.
 

@@ -61,7 +61,7 @@ The literature extraction example above is a possible starting point, but the sa
 - **Free-text coding.**
   - Input: a set of open-ended survey responses (or interview transcripts) and an initial coding template with definitions for each code.
   - Output: each response coded against the template, with the relevant passage quoted alongside each code assignment. Responses that don't fit any code flagged separately.
-  - Acceptance criteria: codes are applied consistently with your definitions; flagged responses genuinely don't fit (not just ambiguous ones the agent skipped over).
+  - Acceptance criteria: codes are applied consistently with your definitions; a specified level of inter-rater reliability is achieved (e.g., based on what you might expect between two humans)
 - **Code generation.**
   - Input: your methods section or pre-registration, and an assumption regarding the effect size you are likely to find.
   - Output: well-documented analysis code, alongside a simulated dataset that can be used to check whether the code retrieves the expected effect size.

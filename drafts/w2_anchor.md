@@ -10,7 +10,7 @@ If the hallucination hunt on Monday made you less trusting of AI-generated facts
 
 Ask an AI what it thinks of your research idea, and it will almost certainly tell you it's promising. Describe a study design and ask for feedback, and most of the response will be encouraging. This isn't because your ideas are uniformly brilliant (sorry). It's because, as we discussed last week, models are trained to produce responses that humans rate highly - and humans tend to rate agreeable, supportive responses more highly than critical ones.
 
-This tendency has a name: **sycophancy**. The most extreme versions have been reined in (early ChatGPT versions would enthusiastically endorse almost anything), but the default tilt toward agreement is still there in most models. It shows up as praise where critique would be more useful, and as a tendency to echo whatever framing you provide rather than questioning it.
+This tendency has a name: **sycophancy**. The most extreme versions have been reined in (early ChatGPT versions would enthusiastically endorse almost anything), but the default tilt toward agreement is still there in most models. It shows up as praise where critique would be more useful, and as echoing your framing rather than questioning it.
 
 **Why this matters for research**
 

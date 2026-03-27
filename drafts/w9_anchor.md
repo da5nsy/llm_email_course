@@ -16,7 +16,7 @@ Here, I don't have strong guidance to offer. When seeing that progress, exciteme
 
 Nobody knows. The people predicting AI will replace researchers within five years and the people predicting it will plateau next year are both guessing. The trajectory has surprised experts positively and negatively, repeatedly.
 
-On Thursday last week, we looked at which specific tasks stay human and which you might delegate. The question here is broader: not which tasks, but what makes you valuable as a researcher in a world where execution keeps getting cheaper.
+On Thursday last week, we looked at which specific tasks stay human and which you might delegate. The question here is broader: not which tasks, but what makes *you* valuable as a researcher in a world where execution keeps getting cheaper.
 
 What seems durable isn't a list of tasks but a set of roles. 
 
@@ -37,7 +37,7 @@ A few concerns are worth naming, even if I can only raise them as questions here
 
 *Deskilling.* If we rely on automation, we risk losing the ability to step in when needed. Airlines came to realise that auto-pilots were a great tool, but that pilots needed to regularly fly manually to maintain the skills for emergencies. In research, we might arrive at different solutions - maybe it's ok to lose the ability to write analysis code as long as we adopt effective verification practices - but that needs to happen deliberately.
 
-*The talent pipeline.* Entry-level work is easiest to automate, but we need a pipeline. I'll be honest: it's becoming genuinely frustrating to spend more time briefing and supporting a junior researcher on a task than an AI agent would need to complete it - and then still need to review the output carefully (though the expected time saving from AI does not always materialise either). That frustration is worth talking about openly, because it's widespread and pretending it doesn't exist won't help junior researchers. But to keep academia thriving, and inclusive, we need to sustain an apprenticeship model. To what extent this consists in coaching junior researchers to use AI effectively versus getting them to do automatable work manually for the sake of learning is a question I'm torn about, and one that merits wider discussion.
+*The talent pipeline.* Entry-level work is easiest to automate, but we need a pipeline. I'll be honest: it's becoming frustrating to spend more time briefing and supporting a junior researcher on a task than an AI agent would need to complete it - and then still need to review the output carefully (though the expected time saving from AI does not always materialise either). That frustration is worth talking about openly, because it's widespread and pretending it doesn't exist won't help junior researchers. But to keep academia thriving, and inclusive, we need to sustain an apprenticeship model. To what extent this consists in coaching junior researchers to use AI effectively versus getting them to do automatable work manually for the sake of learning is a question I'm torn about, and one that merits wider discussion.
 
 *Volume.* If we can all put out many more papers, we will break a publishing system that relies on volunteer peer review, and our ability to keep up even within a narrow niche. Similarly, if funding applications become cheaper to produce, they'll increasingly be evaluated by AI and face ever lower odds. For the moment, I think it's essential for all of us to avoid adding pressure on the system unless we believe the output is actually valuable.
 

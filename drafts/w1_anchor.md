@@ -24,7 +24,7 @@ Not all possible continuations are created equal. Some are informative, others a
 
 Therefore, models are trained ("fine-tuned") when it comes to the style of the answers they provide. For this, humans rate which answers they like better among sets of possible continuations, and the models are then optimised to give answers in the preferred style. Often these trainers are underpaid, rushed, and have limited expertise in the subject matter, so that answers are optimised for looking clear, confident, and charming.
 
-This has sometimes led models to go off the deep end. Some ChatGPT versions were so sycophantic that they praised any idea users floated by them and encouraged them to commit - from the silly to the tragic that resulted in lawsuits. An early Google image model was trained to show diversity, all the way up to creating Black Nazis. This has become more balanced over time, but it is still worth remembering that the models are not optimised for truth.
+This has sometimes led models to go off the deep end. Some ChatGPT versions were so sycophantic that they encouraged users to commit to any idea - including selling literal shit on a stick. The consequences ranged from the silly to the tragic, and resulted in lawsuits. An early Google image model was trained to show diversity, all the way up to creating Black Nazis. This has become more balanced over time, but it is still worth remembering that the models are not optimised for truth.
 
 They cannot be. The models don't know what's true. They know what sounds right. And "sounds right" is conditioned on whatever context they have - your prompt, the conversation so far, and the patterns baked in during training.
 

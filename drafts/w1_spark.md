@@ -10,7 +10,7 @@ You already use AI for something. Maybe you've asked ChatGPT to explain a statis
 
 Whatever your starting point, you have a sense - however rough - of what AI is good for and where it falls apart. That sense is worth examining before this course adds new information on top of it.
 
-There's a real reason AI has spread so fast through research workflows. It can summarise a dense paper in seconds, suggest analysis approaches you hadn't considered, help you wrestle a rough draft into shape, or produce working code for a task that would have taken you an afternoon to look up. These aren't small things. When AI works, it genuinely saves time and mental effort.
+There's a real reason AI has spread so fast through research workflows. It can summarise a dense paper in seconds, suggest analysis approaches you hadn't considered, help you wrestle a rough draft into shape, or produce working code for a task that would have taken you an afternoon to look up. These aren't small things. When AI works, it saves time and mental effort.
 
 But it also gets things wrong - sometimes obviously, sometimes not. And that's the tension this course is built around: AI tools are productive enough that ignoring them has a cost, but unreliable enough that trusting them uncritically has a bigger one. As AI tools become better, the precise pattern is shifting continuously, so that we can trust AI in some areas where it failed abysmally recently ... but the human touch will continue to matter (I hope).
 
@@ -18,7 +18,7 @@ This course does not come with a promise to automate your research. Similarly, I
 
 **What LLMs actually do**
 
-Large language models (LLMs) generate text that would be a plausible continuation of whatever you give them. More technically, they engage in next-token-prediction. That's it (mostly). Fortunately, they don't work like early text completion suggestions on smartphones by just looking at the last 2-3 words; instead they can consider hundreds of thousands of words when they decide what comes next. Nevertheless, when you ask ChatGPT a question, it doesn't look up an answer in a database. It produces text that looks like a good answer would look, based on patterns learned from enormous amounts of text during training. Often that text is genuinely useful. Sometimes it's wrong in ways that are hard to spot, because the wrongness is wrapped in confident, well-structured prose.
+Large language models (LLMs) generate text that would be a plausible continuation of whatever you give them. More technically, they engage in next-token-prediction. That's it (mostly). Fortunately, they don't work like early text completion suggestions on smartphones by just looking at the last 2-3 words; instead they can consider hundreds of thousands of words when they decide what comes next. Nevertheless, when you ask ChatGPT a question, it doesn't look up an answer in a database. It produces text that looks like a good answer would look, based on patterns learned from enormous amounts of text during training. Often that text is useful. Sometimes it's wrong in ways that are hard to spot, because the wrongness is wrapped in confident, well-structured prose.
 
 The confidence you hear in an AI response - the authoritative tone, the clear structure, the lack of hedging - is a style feature, not a reliability signal. A model can be completely wrong and sound exactly as confident as when it's right.
 

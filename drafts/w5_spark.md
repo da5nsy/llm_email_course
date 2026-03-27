@@ -6,9 +6,7 @@ Week 5 of 10 - Writing with AI
 
 ---
 
-For four weeks now, you've been using AI to produce text for you - summaries, syntheses, critiques, stress tests. You've gotten more specific with your prompts, grounded the outputs in your own sources, and learned to check what comes back ... and thus learned how to write well *for AI.*
-
-This week turns the lens around. What happens when AI helps with *your* writing?
+So far, you've been learning how to write well *for AI* - crafting prompts, grounding outputs, checking what comes back. This week turns the lens around: what happens when AI helps with *your* writing?
 
 If you've been anywhere near an LLM in the last year, you've probably done it already: pasted a paragraph into ChatGPT and asked it to "improve this." Or "make this clearer." Or "rewrite this for a general audience." The output comes back polished, fluent, and oddly unfamiliar. It's smoother than what you wrote. But is it still yours?
 
@@ -45,7 +43,7 @@ AI prose tends toward a specific register. Articulate, balanced, slightly formal
 
 However, a *part* of that is related to the homogenisation of ideas, and we already considered some ways to avoid that back in week 3. If everyone gives the same prompt to the same model, outcomes will be bland. Once we start making it our own, and specifically ask for what *we* want, the problem becomes smaller. For instance, when working with AI on this text, I have an extensive style guide in place, that I partly wrote, and that AI partly drafted based on looking at previous teaching materials I had created. I would hope that makes it less generic.
 
-Keeping our distinctive voice isn't about clinging to bad habits. If your writing is genuinely unclear, AI editing can help. As a German, I tend to write rather long sentences when left to my own devices. Trying to break through that for this medium seemed worthwhile, and was a lot easier with persistent AI reminders. However, the concern is about what happens when "clarity" becomes a synonym for "sounds like an LLM." It should mean that it sounds like a polished version of our individual styles - but that requires deliberate prompting, and some restraint.
+Keeping our distinctive voice isn't about clinging to bad habits. If your writing is unclear, AI editing can help. As a German, I tend to write rather long sentences when left to my own devices. Trying to break through that for this medium seemed worthwhile, and was a lot easier with persistent AI reminders. However, the concern is about what happens when "clarity" becomes a synonym for "sounds like an LLM." It should mean that it sounds like a polished version of our individual styles - but that requires deliberate prompting, and some restraint.
 
 **A two-pass approach**
 

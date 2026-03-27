@@ -97,7 +97,7 @@ Weekly references, sources, and further reading for the course. Each email links
 **References**
 
 - Mollick, E. (2023, September 16). Centaurs and cyborgs on the jagged frontier. *One Useful Thing*. https://www.oneusefulthing.org/p/centaurs-and-cyborgs-on-the-jagged — The original blog post on the "jagged frontier," describing "centaur" (clear division of labour) and "cyborg" (deep integration) strategies for working with AI.
-- Ibrahim, E. I., & Voyer, A. (2025). Qualitative research with LLM chatbots: Technological reflexivity for interpretative technology. *Qualitative Research*, *26*(1), 133–159. https://doi.org/10.1177/14687941251390794 — Argues LLM chatbots are fundamentally qualitative tools and proposes "technological reflexivity" as the standard for responsible use.
+- Ibrahim, E. I., & Voyer, A. (2026). Qualitative research with LLM chatbots: Technological reflexivity for interpretative technology. *Qualitative Research*, *26*(1), 133–159. https://doi.org/10.1177/14687941251390794 — Argues LLM chatbots are fundamentally qualitative tools and proposes "technological reflexivity" as the standard for responsible use.
 - Messing, S., & Tucker, J. A. (2026, March 3). The train has left the station: Agentic AI and the future of social science research. *Brookings*. https://www.brookings.edu/articles/the-train-has-left-the-station-agentic-ai-and-the-future-of-social-science-research/ — On how AI coding agents are transforming social science research productivity while raising questions about peer review, merit evaluation, and the institutional future of scholarship.
 
 **Further reading**
@@ -111,7 +111,7 @@ Weekly references, sources, and further reading for the course. Each email links
 
 **References**
 
-- Garimella, K. (2025). AI agents and academia. https://gvrkiran.substack.com/p/ai-agents-and-academia — The "grunt work was training" argument: tasks that built researcher skill are now done in minutes by agents, so value shifts to questions asked and data uniquely accessed.
+- Garimella, K. (2025). AI agents and academia. https://kirangarimella.substack.com/p/ai-agents-and-academia — The "grunt work was training" argument: tasks that built researcher skill are now done in minutes by agents, so value shifts to questions asked and data uniquely accessed.
 
 **Further reading**
 

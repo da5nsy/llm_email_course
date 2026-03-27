@@ -16,9 +16,9 @@ This is the pattern worth paying attention to.
 
 Ethan Mollick uses the phrase "jagged frontier" to describe AI capability: it's not uniformly good or uniformly bad. The boundary between what works and what doesn't is irregular and hard to predict in advance. A model that writes flawless analysis code might struggle with a simple formatting task. One that summarises 20 papers brilliantly might miss an obvious contradiction between two of them.
 
-The practical implication is that you can't judge from first principles what an agent will handle well. You have to try it. Your frontier will be different from your colleague's, because it depends on your field, your tasks, your file types, and the specific tools you use. And it shifts constantly - Mollick likes to remind people that the models you're working with now are the worst models you'll ever work with. What fails today may work in six months. What works today may work even better then.
+The practical implication is that you can't judge from first principles what an agent will handle well. You have to try it. Your frontier will be different from your colleague's, because it depends on your field, your tasks, your file types, and the specific tools you use. And it shifts constantly - the models you're working with now are the worst models you'll ever work with. What fails today may work in six months. Also, remember that LLMs are not deterministic; each run will be slightly different.
 
-This means the right response isn't to write off agents based on one bad experience, or to trust them completely based on one good one. It's to keep experimenting, keep notes on what works and what doesn't, and expect to be surprised in both directions. It's also important to recognise that there are many ways to achieve the same goal. Agents might be worse than you at PowerPoint, but better than you (and likely good enough) at creating polished code-based presentations, e.g. with *reveal.js*.
+This means the right response isn't to write off agents based on one bad experience, or to trust them completely based on one good one. It's to keep experimenting, keep notes on what works and what doesn't, and expect to be surprised. It's also important to remember that there are many ways to achieve the same goal. Agents might be worse than you at PowerPoint, but better than you (and likely good enough) at creating polished code-based presentations, e.g. with *reveal.js*.
 
 **Verification compounds with agents**
 
@@ -52,7 +52,7 @@ If you work with qualitative data, you may be wondering how agents fit. The shor
 
 For keyword detection, surface-level categorisation, and organising large volumes of text, agents perform very well. For interpretive or latent coding - the kind where a code emerges from repeated engagement with the data rather than from a predefined list - they're weaker. They tend to generate more literal, descriptive codes than a human researcher would, and they can miss the kind of meaning that only becomes visible through sustained immersion. At least for now.
 
-For reflexive qualitative approaches specifically, there are unresolved tensions. If the method requires you to bring your own perspective and positionality to the analysis, outsourcing interpretation to an AI raises fundamental questions about what the analysis actually is. These debates are active and ongoing. If you're interested, [Ibrahim and Voyer (2025)](https://doi.org/10.1177/14687941251390794) provide a useful starting point.
+For reflexive qualitative approaches specifically, there are unresolved tensions. If the method requires you to bring your own perspective and positionality to the analysis, outsourcing interpretation to an AI raises fundamental questions about what the analysis actually is. These debates are active and ongoing. If you're interested, [Ibrahim and Voyer (2026)](https://doi.org/10.1177/14687941251390794) provide a useful starting point.
 
 For now, it might be most interesting (and defensible) to use LLMs as a secondary check: run your own coding first, then see what the AI flags that you might have missed.
 

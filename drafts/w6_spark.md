@@ -6,7 +6,7 @@ Week 6 of 10 - AI for coding and data
 
 ---
 
-For five weeks, you've been working with text. This week is about data and code.
+You're halfway through the course. The first five weeks were about text: understanding LLMs, prompting, grounded tools, writing. The second half is more about getting AI to *do* things, starting now with data and code, then moving to agents and governance.
 
 If you've ever been annoyed at clicking through SPSS menus again because one pre-processing step changed, or wished you could share your exact analysis steps with a collaborator, code is the answer. And AI has made getting started with code dramatically easier. You describe what you want in plain language, the AI writes the code, and you run it. You don't need to understand every line, but you do need to understand the output well enough to know whether it's right. If you run into trouble, you can paste the error back and ask the AI to fix it, or ask it to explain what the code does.
 
@@ -20,7 +20,7 @@ If you don't have a coding environment set up, [Google Colab](https://colab.rese
 
 **Why code, not just "analyse this"?**
 
-You can upload a dataset to ChatGPT's code interpreter and just say "analyse this." Some tools will produce entire reports from a single prompt. For a quick first look at unfamiliar data, that's genuinely useful: upload a CSV, ask "what's in here?", and get summary statistics and plots in minutes.
+You can upload a dataset to ChatGPT's code interpreter and just say "analyse this." Some tools will produce entire reports from a single prompt. For a quick first look at unfamiliar data, that's useful: upload a CSV, ask "what's in here?", and get summary statistics and plots in minutes.
 
 But for anything you'd put in a paper, it's worth seeing (and saving) the code. When the AI runs analysis behind the scenes and shows you polished output, you can't tell what choices it made. Did it drop missing values or impute them? How did it code that variable? Which observations did it include? You get a clean-looking result with no way to inspect the path that produced it - and in extreme cases, AI might even hallucinate in code. The first time I used ChatGPT Code Interpreter, it invented and hard-coded a correlation value to get us over the line. This has become very rare, but can still occur.
 

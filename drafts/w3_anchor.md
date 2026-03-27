@@ -6,21 +6,21 @@ Week 3 of 10 - Prompting, ideation, and the convergence trap
 
 ---
 
-If Monday's iteration ladder worked as expected, you've gotten better at extracting useful output from AI. You can specify what you want, assign roles, provide examples. The outputs are more relevant, more focused, more usable.
+Based on the exercised so far, you should be able to specify what you want, assign roles, provide examples. Your AI outputs might be more relevant and more focused than they were two weeks ago.
 
-Now a different kind of question: what if the problem isn't that AI gives bad ideas, but that it gives everyone the same ones?
+That's good. But here's a different kind of question: what if the problem isn't that AI gives bad ideas, but that it gives everyone the same ones?
 
 **AI as sparring partner**
 
-One of the most appealing uses of AI in research is as a thinking partner. Bouncing ideas, generating alternatives, stress-testing arguments. And it can be genuinely good at this - particularly at making connections across fields, suggesting angles you hadn't considered, and producing a first pass at critique that gives you something to react to.
+One of the most appealing uses of AI in research is as a thinking partner. Bouncing ideas, generating alternatives, stress-testing arguments. And it can be good at this - particularly at making connections across fields, suggesting angles you hadn't considered, and producing a first pass at critique that gives you something to react to.
 
 But there's a structural issue underneath the usefulness.
 
 **The convergence problem**
 
-A 2025 study found that when people used AI for creative tasks, the average quality of ideas went up - but the diversity went down. People working with AI produced more similar ideas than people working alone. Individual outputs got better; collective variety got worse (at least when the tasks didn't truly matter and they were working independently).
+[A 2025 study](https://doi.org/10.1038/s41562-025-02173-x) found that when people used AI for creative tasks, the average quality of ideas went up - but the diversity went down. People working with AI produced more similar ideas than people working alone. Individual outputs got better; collective variety got worse (at least when the tasks didn't truly matter and they were working independently).
 
-More concerningly, a 2026 study, analysing 41 million papers, found that AI-assisted research tends to cluster around popular topics and covers less intellectual territory than conventional research. The tools draw from the same training data, are optimised for the same notion of "helpful," and tend to nudge everyone toward the centre of the distribution.
+More concerningly, [a 2026 study](https://doi.org/10.1038/s41586-025-09922-y), analysing 41 million papers, found that AI-assisted research tends to cluster around popular topics and covers less intellectual territory than conventional research. The tools draw from the same training data, are optimised for the same notion of "helpful," and tend to nudge everyone toward the centre of the distribution, and toward areas already covered well in the training data.
 
 This matters for research in a way it might not for marketing copy. If AI makes it easy for every researcher to produce competent-sounding ideas on trending topics, but harder to produce weird, unexpected, field-shifting work, that's a problem that won't show up at the individual level. Each person thinks their AI-assisted output is pretty good. The loss only becomes visible when you look across the field.
 
@@ -30,7 +30,7 @@ The fix isn't to stop using AI for ideation. It's to use it deliberately, pushin
 
 **Socratic prompting** means asking the AI to challenge your thinking rather than confirm it. Instead of "What do you think of this hypothesis?", try "What are the strongest arguments against this hypothesis?" or "What would a critic from [rival theoretical tradition] say about this?" The model will still be drawing on mainstream patterns, but you're at least pointing it in a less comfortable direction.
 
-**Adversarial prompting** goes further: ask for counter-hypotheses that explain the same pattern, confounding variables you might have missed, or boundary conditions where your argument falls apart. The model may not produce genuinely novel objections, but it can surface critiques that are easy to overlook when you're deep in your own framing.
+**Adversarial prompting** goes further: ask for counter-hypotheses that explain the same pattern, confounding variables you might have missed, or boundary conditions where your argument falls apart. The model may not produce novel objections, but it can surface critiques that are easy to overlook when you're deep in your own framing.
 
 **Pushing for unlikely ideas** tackles convergence more directly. LLMs default to one of the most probable responses, which is almost by definition the least original one. You can counter this by asking for quantity: "Give me 20 possible explanations for this pattern" forces the model past its first-instinct answers and into less obvious territory (and at this stage, verification is cheaper than generation, so that you can narrow down quickly). You can also be explicit: "What are some unlikely or unconventional explanations that most researchers wouldn't consider?" Another option is to run the same prompt through two or three different models - they draw on different training data and optimisation choices, so the overlap between their responses is often where the conventional wisdom lives, and the differences are where something interesting might be hiding.
 

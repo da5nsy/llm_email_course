@@ -6,7 +6,7 @@ Week 5 of 10 - Writing with AI
 
 ---
 
-If you tried the two-pass test on Monday, you probably noticed something: the logic critique and the style smoothing felt like different kinds of help. One gave you something to think about. The other made your text sound polished. Maybe too polished. Maybe not quite like you anymore. Maybe that was an issue, maybe not.
+The logic critique and the style smoothing from Monday's exercise are different kinds of help. One gives you something to think about. The other makes your text sound polished. Maybe too polished. Maybe not quite like you anymore. Maybe that was an issue, maybe not.
 
 Thinking about AI in writing matters beyond your own writing. It matters for how we read and evaluate each other's work.
 
@@ -26,13 +26,13 @@ We saw this convergence dynamic in Week 3 when we talked about ideation. The sam
 
 That said, let's acknowledge how peer review often works in practice. You agreed to review a paper in a weak moment, as a favour to an editor. The deadline was two weeks ago. You finally open the manuscript on a Sunday evening, and it's on a topic adjacent to your expertise but not quite in your wheelhouse. This is not the idealised scenario where two independent experts bring their deep specialist knowledge to bear, and I have certainly found myself in that situation, as a reviewer and (I believe) also as a recipient of some questionable reviews.
 
-In situations like this, an LLM might genuinely have something useful to add. Not as a replacement for your review, but as a second perspective to cross-check against. The key is the order: form your own assessment first, write up your main points, *then* see what the LLM flags. That way your independent judgement comes first, and the AI serves as a check rather than a crutch. Two reviewers don't really form the "crowd" you'd need for true wisdom-of-the-crowd effects anyway, so an additional perspective - even a synthetic one - can add value, as long as it doesn't replace yours.
+In situations like this, an LLM might have something useful to add. Not as a replacement for your review, but as a second perspective to cross-check against. The key is the order: form your own assessment first, write up your main points, *then* see what the LLM flags. That way your independent judgement comes first, and the AI serves as a check rather than a crutch. Two reviewers don't really form the "crowd" you'd need for true wisdom-of-the-crowd effects anyway, so an additional perspective - even a synthetic one - can add value, as long as it doesn't replace yours.
 
 **The polish trap**
 
 Back to our own writing. AI can make anything sound smooth. A well-prompted edit removes rough edges, balances sentence lengths, adds transitions. The result is professional and readable. But smooth isn't the same as clear. And clear isn't the same as right.
 
-Sometimes the rough edges in your writing are there because the idea is genuinely rough. You haven't worked it out yet. The halting sentence that doesn't quite land might be telling you something important about a gap in your argument. Polish it too early and you lose that signal. You end up with a paragraph that reads well and says nothing specific.
+Sometimes the rough edges in your writing are there because *the idea* is rough. You haven't worked it out yet. The halting sentence that doesn't quite land might be telling you something important about a gap in your argument. Polish it too early and you lose that signal. You end up with a paragraph that reads well and says nothing specific.
 
 This is worth paying attention to, especially in early drafts. Save the AI polishing for late-stage editing, when the ideas are solid and you're refining presentation. In early drafts, roughness can be information. By the way: This also applies to ideas, and to texts you are just generating to put your notes into a clean form. I like AI for "brainstorming" ideas, but certainly had situations where collaborators took my ideas too seriously because they were in clean prose rather than rough bullet points.
 
@@ -46,7 +46,7 @@ Take a paragraph you wrote recently - ideally one you're reasonably happy with -
 
 Compare the original and edited versions side by side:
 
-- What's genuinely better in the AI's version? Clearer phrasing? Better flow?
+- What's better in the AI's version? Clearer phrasing? Better flow?
 - What's lost? Did the AI remove hedging that was intentional? Flatten a nuance? Change your tone?
 - Would a reader familiar with your work know which version was yours?
 

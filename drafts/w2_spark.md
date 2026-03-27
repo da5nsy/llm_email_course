@@ -18,7 +18,7 @@ The result is a spectrum of errors: sometimes references are entirely fabricated
 
 **Beyond citations: plausible-sounding facts**
 
-Citation hallucination gets the most attention because it's easy to check, and because there are few other explanations why citations to non-existent papers suddenly started to appear much more frequently across the academic literature after ChatGPT came out. But the same mechanism produces fabricated statistics, invented historical claims, and made-up study findings scattered through ordinary-looking prose. This can make working with LLMs very frustrating. They can often get a lot of details right, but some details wrong. They are great at reformatting reference lists, but I recently came close to shouting at a model that helpfully decided to fill in all gaps with "plausible" page numbers and DOIs.
+Citation hallucination gets the most attention because it's easy to check, and because there are few other explanations why citations to non-existent papers suddenly started to appear across the academic literature after ChatGPT came out. But the same mechanism produces fabricated statistics, invented historical claims, and made-up study findings scattered through ordinary-looking prose. This can make working with LLMs very frustrating. They can often get a lot of details right, but some details wrong. They are great at reformatting reference lists, but I recently came close to shouting at a model that helpfully decided to fill in all gaps with "plausible" page numbers and DOIs.
 
 **Can the model check its own work?**
 

@@ -12,9 +12,9 @@ Quite a lot, it turns out. But not always the parts you'd expect.
 
 **The grunt work was training**
 
-Kiran Garimella made this point sharply in a recent essay: the tasks we used to call "grunt work" in research - cleaning datasets, writing basic analysis code, formatting tables, chasing down references - were also how we built competence. You learn what messy data looks like by cleaning it. You understand statistical models by implementing them badly and fixing the errors. You develop judgment about sources by reading a lot of mediocre ones.
+Kiran Garimella made this point sharply in [a recent essay](https://kirangarimella.substack.com/p/ai-agents-and-academia): the tasks we used to call "grunt work" in research - cleaning datasets, writing basic analysis code, formatting tables, chasing down references - were also how we built competence. You learn what messy data looks like by cleaning it. You understand statistical models by implementing them badly and fixing the errors. You develop judgment about sources by reading a lot of mediocre ones.
 
-When agents do these tasks in minutes, that's genuinely more efficient. But the learning that used to come bundled with the work doesn't transfer automatically. A researcher who has never cleaned a dataset may not recognise when an agent has cleaned it wrong. Someone who has never written analysis code from scratch may not know which questions to ask about the code an agent produces.
+When agents do these tasks in minutes, that's more efficient. But the learning that used to come bundled with the work doesn't transfer automatically. A researcher who has never cleaned a dataset may not recognise when an agent has cleaned it wrong. Someone who has never written analysis code from scratch may not know which questions to ask about the code an agent produces.
 
 This isn't a reason to refuse to use agents. It's a reason to be thoughtful about what you're giving up when you delegate, especially early in your career or when entering an unfamiliar domain. The efficiency gain is real. The skill gap it might create is also real. How (and if) critical engagement with AI outputs is possible in areas where we don't understand the production process is a fundamental question for education - but for now, one we will all need to explore critically as we go along.
 

@@ -1,5 +1,7 @@
 **Subject:** [GAIR] The short version
 
+Hi there.
+
 So. Ten weeks. If you've been reading along - and better, doing the exercises - you've covered a lot of ground. Chat, sources, writing, coding, agents, workflows, governance. You've (hopefully) drafted your own rules and collected observations about where AI helps your work and where it gets in the way.
 
 I want to close with something personal. Not a full recap of the course content - you have the emails for that. Instead, here's the condensed version of what I believe about AI in research right now. Eight ideas, each in a couple of sentences.
@@ -14,11 +16,11 @@ I want to close with something personal. Not a full recap of the course content 
 
 **5. Use AI as a critic, not a judge.** AI is good at spotting what you might have missed and pushing back on your arguments - *if you ask it to.* It's not calibrated to score or assess the quality of ideas. If you don't steer it, responses tend to be agreeable; you need to specifically prompt for challenge and disagreement. And be wary of framing - once AI suggests an approach, it's hard to unsee it.
 
-**6. Agents are a game-changer.** When AI can interact with files on your machine, run code, and verify its own outputs, it's a different tool entirely. For quantitative work especially, an agent that writes an analysis script, runs it, checks the results, and iterates is genuinely transformative. Not for everything, but for the right tasks, it changes what's practical.
+**6. Agents are a game-changer.** When AI can interact with files on your machine, run code, and verify its own outputs, it's a different tool entirely. For quantitative work especially, an agent that writes an analysis script, runs it, checks the results, and iterates is transformative. Not for everything, but for the right tasks, it changes what's practical.
 
 **7. Your frontier is personal, and it moves.** What you can safely delegate depends on what you already know. Stay close to the parts of the frontier that matter for your work - you don't need to track every model release. Keep testing, keep notes, and approach it with some playfulness. Experiment because it's useful (and might be fun). You might well fall behind if you don't - but anxiety is not a good motivation.
 
-**8. The ethics are yours to navigate.** These models are trained on data that wasn't provided for that purpose. The energy costs are real. Some of the human annotation work behind them involves poor conditions and low pay. Reasonable people weigh these differently - I think language model training is genuinely different from, say, generating images in a specific artist's style, and that resource use is proportionate to the value when AI is used well. But these are choices, not settled questions. Make yours consciously.
+**8. The ethics are yours to navigate.** These models are trained on data that wasn't provided for that purpose. The energy costs are real. Some of the human annotation work behind them involves poor conditions and low pay. Reasonable people weigh these differently - I think language model training is different from, say, generating images in a specific artist's style, and that resource use is proportionate to the value when AI is used well. But these are choices, not settled questions. Make yours consciously.
 
 That's the course condensed. Everything else was context, exercises, and the experience of trying things for yourself - which was, I hope, the part that actually shifted your thinking.
 
@@ -32,7 +34,7 @@ Write a Week 10 version. Same six prompts, new answers. The gap between the two 
 
 Your SOP is a living document. Update it when models surprise you (especially on tests that failed earlier), when policies change, or when your work changes. The tools will keep changing, but good habits - verifying, pre-committing, documenting, reflecting - should work regardless of what the models look like next year.
 
-If you found the course useful, I'd genuinely like to hear about it. A quick reply with one thing that changed your practice would be great. And if you're on the FORRT Slack, share your biggest takeaway or your most useful SOP rule - it helps everyone.
+If you found the course useful, I'd really like to hear about it. A quick reply with one thing that changed your practice would be great. And if you're on the FORRT Slack, share your biggest takeaway or your most useful SOP rule - it helps everyone.
 
 Thanks for reading. It's been a pleasure writing this (and getting to reflect on AI use in the process).
 
