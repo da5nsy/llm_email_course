@@ -38,7 +38,7 @@ Each week builds on the last, but we'll keep circling back to the core question:
 
 **One more thing**
 
-This course was partly built with AI assistance. I'll be transparent about that where it's relevant - because thats's honest, and  because the process of writing with AI illustrates some of the things the course teaches. More on that in the weeks ahead.
+This course was partly built with AI assistance. I'll be transparent about that where it's relevant - because that's honest, and  because the process of writing with AI illustrates some of the things the course teaches. More on that in the weeks ahead.
 
 Your first Spark email arrives on Monday. See you then.
 
